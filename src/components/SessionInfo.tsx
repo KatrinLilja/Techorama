@@ -2,7 +2,6 @@ import { useEffect, useRef, type ReactNode } from "react";
 import { DAYS, LV, TR, type DayKey, type Session, type Slot } from "../schedule";
 import { isWorkshop, type Team } from "../model";
 import detailsJson from "../sessionDetails.json";
-import { Chips } from "./Chips";
 
 interface Speaker { name: string; tagline: string; photo: string; page: string; about: string }
 interface Details { url: string; description: string; speakers: Speaker[] }
@@ -36,7 +35,7 @@ interface Props {
   onToggle(sid: string): void;
 }
 
-export function SessionInfo({ target, team, onClose, onToggle }: Props) {
+export function SessionInfo({ target, onClose }: Props) {
   const ref = useRef<HTMLDialogElement>(null);
 
   useEffect(() => {
@@ -48,9 +47,7 @@ export function SessionInfo({ target, team, onClose, onToggle }: Props) {
 
   const s = target?.s;
   const det = s ? DETAILS[s.id] : undefined;
-  const going = !!(s && team.meP && team.picksOf(team.meP).has(s.id));
   const time = target ? target.slot.t[0] + (target.slot.t[1] ? "–" + target.slot.t[1] : "") : "";
-  const hasTeam = !!s && (team.attendees(s.id).length > 0 || team.interested(s.id).length > 0);
 
   return (
     <dialog

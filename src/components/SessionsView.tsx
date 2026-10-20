@@ -64,7 +64,7 @@ export function SessionsView({ team, day, onlyTeam, onlyMine, onToggle, onToggle
                     <div
                       role="button"
                       tabIndex={canPick ? 0 : -1}
-                      className={"sess" + (s.skip ? " skip" : " has-info")}
+                      className={"sess" + (s.skip ? " skip" : "")}
                       aria-pressed={on}
                       aria-disabled={!canPick}
                       onClick={() => { if (canPick) onToggle(s.id); }}
@@ -75,7 +75,7 @@ export function SessionsView({ team, day, onlyTeam, onlyMine, onToggle, onToggle
                       <span className="tick" aria-hidden="true" />
                       {s.skip ? (
                         <span className="body">
-                          <div className="ttl">{s.title} sadf</div>
+                          <div className="ttl">{s.title}</div>
                           <div className="meta">Not going to a session this slot</div>
                           {noteLines.length > 0 && (
                             <span className="notes">
@@ -90,23 +90,27 @@ export function SessionsView({ team, day, onlyTeam, onlyMine, onToggle, onToggle
                       ) : (
                         <span className="body">
                           <span className="room">{s.room}</span>
-                          <div className="ttl">{s.title}</div>
+                          <div className="ttl">
+                            {s.title.slice(0, s.title.lastIndexOf(" ") + 1)}
+                            {/* keep the last word and the ⓘ together so the icon never wraps onto its own line */}
+                            <span className="nowrap">
+                            {s.title.slice(s.title.lastIndexOf(" ") + 1)}
+                            <button
+                              type="button"
+                              className="info"
+                              aria-label={"More about " + s.title}
+                              title="More details"
+                              onClick={e => { e.stopPropagation(); setInfo({ s, slot: sl, day }); }}
+                              onKeyDown={e => e.stopPropagation()}
+                            >
+                              <InfoIcon />
+                            </button>
+                            </span>
+                          </div>
                           <div className="meta">{meta}</div>
                         </span>
                       )}
                       <Chips team={team} sid={s.id} />
-                      {!s.skip && (
-                        <button
-                          type="button"
-                          className="info"
-                          aria-label={"More about " + s.title}
-                          title="More details"
-                          onClick={e => { e.stopPropagation(); setInfo({ s, slot: sl, day }); }}
-                          onKeyDown={e => e.stopPropagation()}
-                        >
-                          <InfoIcon />
-                        </button>
-                      )}
                     </div>
                     {!solo &&
                       (s.skip ? (
