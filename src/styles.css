@@ -157,12 +157,13 @@ tr:last-child th, tr:last-child td { border-bottom: none; }
 
 /* Info button + session details popup */
 .sess:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-/* ⓘ sits on the room line; the padding (offset by negative margins) gives it a comfortable tap target without adding height */
-.roomline { display: flex; align-items: center; gap: 2px; }
-.info { display: inline-grid; place-items: center; margin: -8px 0; padding: 8px 6px; font: inherit; color: var(--accent); background: none; border: none; border-radius: 50%; cursor: pointer; }
+/* ⓘ pinned to the card's top-right corner; the card reserves room on the right so chips never sit underneath it */
+.sess { position: relative; }
+.sess.has-info { padding-right: 40px; }
+.info { position: absolute; top: 3px; right: 3px; display: grid; place-items: center; width: 36px; height: 36px; padding: 0; font: inherit; color: var(--accent); background: none; border: none; border-radius: 50%; cursor: pointer; }
 .info:hover { color: var(--ink); }
 .info:hover .infoicon circle:first-child { fill: var(--accent-soft); }
-.infoicon { width: 17px; height: 17px; }
+.infoicon { width: 20px; height: 20px; }
 .info:focus-visible { outline-offset: -3px; }
 .nowrap { white-space: nowrap; }
 
