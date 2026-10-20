@@ -39,10 +39,13 @@ This creates a static site in `dist/`. Upload that folder to any static host —
 | `src/App.tsx` | Name picker, day tabs, filters, and saving your picks (one write at a time, coalesced) |
 | `src/components/SessionsView.tsx` | The per-slot session list |
 | `src/components/GridView.tsx` | The "Who's where" table |
+| `src/components/SessionInfo.tsx` | The ⓘ popup with description, speakers and team members |
+| `src/sessionDetails.json` | Session descriptions and speaker info, downloaded from techorama.nl |
 | `supabase/schema.sql` | Database table, access rules and realtime setup |
 
 ## Good to know
 
+- **Session details:** if Techorama updates descriptions or speakers, run `npm run fetch-details` to refresh `src/sessionDetails.json`, then commit and push.
 - **Access:** anyone with the site's address can add names and change picks, same as the original page. The anon key is public by design; the database rules only allow access to the `people` table.
 - **Clearing data after the conference:** run `delete from public.people;` in the Supabase SQL Editor.
 - Free Supabase projects pause after a week with no activity; open the dashboard and click **Restore** if that happens.

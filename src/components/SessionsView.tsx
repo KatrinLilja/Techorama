@@ -1,8 +1,9 @@
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 import { DAYS, LV, TR, type DayKey } from "../schedule";
 import { firstName, isWorkshop, type Team } from "../model";
 import { Chips } from "./Chips";
 import { Knight } from "./Knight";
+import { InfoIcon, SessionInfo, type InfoTarget } from "./SessionInfo";
 
 interface Props {
   team: Team;
@@ -22,6 +23,7 @@ export function SessionsView({ team, day, onlyTeam, onlyMine, onToggle, onToggle
   const myInt = meP ? team.interestOf(meP) : new Set<string>();
   const myNotes = meP ? team.notesOf(meP) : {};
   const solo = day === "mon";
+  const [info, setInfo] = useState<InfoTarget | null>(null);
 
   const slots = D.slots
     .map((sl, i) => ({
@@ -59,11 +61,21 @@ export function SessionsView({ team, day, onlyTeam, onlyMine, onToggle, onToggle
               return (
                 <Fragment key={s.id}>
                   <div className={"srow" + (solo ? " solo" : "")}>
-                    <button type="button" className={"sess" + (s.skip ? " skip" : "")} aria-pressed={on} disabled={!canPick} onClick={() => onToggle(s.id)}>
+                    <div
+                      role="button"
+                      tabIndex={canPick ? 0 : -1}
+                      className={"sess" + (s.skip ? " skip" : "")}
+                      aria-pressed={on}
+                      aria-disabled={!canPick}
+                      onClick={() => { if (canPick) onToggle(s.id); }}
+                      onKeyDown={e => {
+                        if (e.target === e.currentTarget && canPick && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); onToggle(s.id); }
+                      }}
+                    >
                       <span className="tick" aria-hidden="true" />
                       {s.skip ? (
                         <span className="body">
-                          <div className="ttl">{s.title}</div>
+                          <div className="ttl">{s.title} sadf</div>
                           <div className="meta">Not going to a session this slot</div>
                           {noteLines.length > 0 && (
                             <span className="notes">
@@ -77,13 +89,25 @@ export function SessionsView({ team, day, onlyTeam, onlyMine, onToggle, onToggle
                         </span>
                       ) : (
                         <span className="body">
-                          <span className="room">{s.room}</span>
+                          <span className="roomline">
+                            <span className="room">{s.room}</span>
+                            <button
+                              type="button"
+                              className="info"
+                              aria-label={"More about " + s.title}
+                              title="More details"
+                              onClick={e => { e.stopPropagation(); setInfo({ s, slot: sl, day }); }}
+                              onKeyDown={e => e.stopPropagation()}
+                            >
+                              <InfoIcon />
+                            </button>
+                          </span>
                           <div className="ttl">{s.title}</div>
                           <div className="meta">{meta}</div>
                         </span>
                       )}
                       <Chips team={team} sid={s.id} />
-                    </button>
+                    </div>
                     {!solo &&
                       (s.skip ? (
                         <span />
@@ -130,12 +154,13 @@ export function SessionsView({ team, day, onlyTeam, onlyMine, onToggle, onToggle
         </p>
       )}
       <p className="ext">
-        Session details are on{" "}
+        Tap <b>ⓘ</b> for the full description and speaker info, or browse{" "}
         <a href="https://techorama.nl/schedule" target="_blank" rel="noopener">
           techorama.nl/schedule
         </a>
         . Rooms marked (JB) are in the Jaarbeurs building next door.
       </p>
+      <SessionInfo target={info} team={team} onClose={() => setInfo(null)} onToggle={onToggle} />
     </>
   );
 }
