@@ -89,12 +89,8 @@ export function SessionsView({ team, day, onlyTeam, onlyMine, onToggle, onToggle
                         </span>
                       ) : (
                         <span className="body">
-                          <span className="room">{s.room}</span>
-                          <div className="ttl">
-                            {s.title.slice(0, s.title.lastIndexOf(" ") + 1)}
-                            {/* keep the last word and the ⓘ together so the icon never wraps onto its own line */}
-                            <span className="nowrap">
-                            {s.title.slice(s.title.lastIndexOf(" ") + 1)}
+                          <span className="roomline">
+                            <span className="room">{s.room}</span>
                             <button
                               type="button"
                               className="info"
@@ -105,8 +101,8 @@ export function SessionsView({ team, day, onlyTeam, onlyMine, onToggle, onToggle
                             >
                               <InfoIcon />
                             </button>
-                            </span>
-                          </div>
+                          </span>
+                          <div className="ttl">{s.title}</div>
                           <div className="meta">{meta}</div>
                         </span>
                       )}
