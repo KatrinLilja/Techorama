@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
-    "fetch-details": "node scripts/fetch-session-details.mjs"
+    "fetch-details": "node scripts/fetch-session-details.mjs",
+    "update-schedule": "node scripts/fetch-schedule.mjs && node scripts/fetch-session-details.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.45.4",

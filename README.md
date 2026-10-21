@@ -34,7 +34,8 @@ This creates a static site in `dist/`. Upload that folder to any static host —
 
 | File | What it does |
 | --- | --- |
-| `src/schedule.ts` | The conference schedule (days, slots, sessions, the "not going" excuses) |
+| `src/schedule.ts` | Builds the schedule from `scheduleData.json`; day notes, slot labels and the "not going" excuses |
+| `src/scheduleData.json` | Sessions, times and rooms, downloaded from techorama.nl |
 | `src/usePeople.ts` | Loads the team from Supabase and keeps it live (realtime + refresh when the tab comes back) |
 | `src/App.tsx` | Name picker, day tabs, filters, and saving your picks (one write at a time, coalesced) |
 | `src/components/SessionsView.tsx` | The per-slot session list |
@@ -45,7 +46,8 @@ This creates a static site in `dist/`. Upload that folder to any static host —
 
 ## Good to know
 
-- **Session details:** if Techorama updates descriptions or speakers, run `npm run fetch-details` to refresh `src/sessionDetails.json`, then commit and push.
+- **Schedule updates:** run `npm run update-schedule` to download the latest sessions, times and rooms (`src/scheduleData.json`) plus descriptions and speakers (`src/sessionDetails.json`). It prints what changed; then commit and push. `npm run fetch-details` refreshes only the descriptions.
+- **Picks follow the session:** if Techorama moves a session to another slot, teammates who picked it will show up in the new slot. Ask them to re-check after a schedule update.
 - **Access:** anyone with the site's address can add names and change picks, same as the original page. The anon key is public by design; the database rules only allow access to the `people` table.
 - **Clearing data after the conference:** run `delete from public.people;` in the Supabase SQL Editor.
 - Free Supabase projects pause after a week with no activity; open the dashboard and click **Restore** if that happens.

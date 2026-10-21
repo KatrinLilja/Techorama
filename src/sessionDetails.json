@@ -149,16 +149,16 @@
    }
   ]
  },
- "s1176719": {
-  "url": "https://techorama.nl/schedule/sessions/1176719",
-  "description": "Passwords drive breaches, increase support costs, and frustrate users. Passkeys—standards‑based WebAuthn/FIDO2 credentials backed by public‑key cryptography and biometrics—deliver MFA‑level security with a one‑tap experience. They are resistant to phishing and replay, eliminate fragile SMS/OTP flows, reduce password reset tickets, and improve conversion rates on sign-in and checkout. With broad support across Windows, macOS, iOS, Android, and all modern browsers, passkeys are the most practical path to passwordless today.\n\nIn this session, we’ll add passkey authentication to an existing ASP.NET Core web application running on .NET 10. You’ll get a concise primer on how WebAuthn works (registration vs. authentication ceremonies, challenges, attestation, and assertions) and then see it implemented end‑to‑end: wiring up navigator.credentials.create() / get() on the client, verifying responses on the server, and storing credential IDs and public keys. We’ll integrate with ASP.NET Core Identity. We’ll also cover rollout and UX strategy.\n\nYou’ll leave with clear practical guidance to ship secure, delightful, passwordless sign‑in on .NET 10.",
+ "s1211675": {
+  "url": "https://techorama.nl/schedule/sessions/1211675",
+  "description": "You won't believe number 7!\n\nI know, the clickbait joke is rather lame, but I can assure you that this session is not! In this session, I'll take you on a journey in some lesser known features of EF Core and how they can benefit your projects.\n\nIn the .NET 10 era, EF Core has far surpassed what Entity Framework used to be, and has become an ORM powerhouse with features that are useful in many different scenarios. But unless you are constantly keeping up with the latest evolutions, chances are you are missing some opportunities to improve your EF Core usage in your projects.\n\nAnd as the audience, you will have a say in some of the content of this session!",
   "speakers": [
    {
-    "name": "Andrew Clymer",
-    "tagline": "Co-Founder, Managing Director at Rock Solid Knowledge",
-    "photo": "https://oganizeprod.blob.core.windows.net/speakerimages/c465df65-cc9b-4f2d-9c54-a0d699c8fe46.jpg",
-    "page": "https://techorama.nl/schedule/speakers/andrew-clymer",
-    "about": "Andy has programmed professionally in various languages, including 6502 assemblers, C, C++, Java and C#. He’s a co-founder at Rock Solid Knowledge, where he’s responsible for managing the Identity and Access Management Division, and growing the company’s product portfolio utilising a range of technologies including web, mobile and Umbraco CMS.\n\nOver the years Andy has trained thousands of software developers, spoken at dozens of technical conferences, and is the co-author of Pro Asynchronous Programming with .NET, published by Apress."
+    "name": "Hannes Lowette",
+    "tagline": "Principal Consultant @ Axxes; Microsoft MVP",
+    "photo": "https://oganizeprod.blob.core.windows.net/speakerimages/497f9bfb-7e28-4773-81e3-e853ca09ccde.jpg",
+    "page": "https://techorama.nl/schedule/speakers/hannes-lowette",
+    "about": "Hannes is a developer, a coach and a father of 3.\n\nIn software development, he has always had a passion for performance, databases, distributed systems and large scale applications. He's always weighing every solution's benefits against its drawbacks, reducing friction where possible.\n\nAs a coach, he is enthusiastic about knowledge sharing, personal growth and building careers. Building a company culture around learning is what gets him out of bed.\n\nIn his free time, when he’s not building LEGO® castles with his kids, he likes to spend time building guitars, playing chess, mountain biking and doing all round geeky stuff.\n\nYou can often find him on stage at the conference afterparty, especially as the guitarist of Dylan Beattie & the Linebreakers."
    }
   ]
  },
@@ -214,16 +214,16 @@
    }
   ]
  },
- "s1250681": {
-  "url": "https://techorama.nl/schedule/sessions/1250681",
-  "description": "At the end of the day, kindness and compassion matters in all human endeavors, because we are fundamentally emotional creatures, even when we do not want to be. Look at how you respond to something unexpected in your IDE– most of us feel annoyed, slighted, or even angry when the computer is not kind to us. We’ll explore what aspects of the applications you write might be eliciting negative feelings in your users. As important as that is, it’s also critical to extend kindness throughout the development process and your career. That doesn’t backing off what you know is right, it means accepting that you may be wrong, really listening to those around you, and treating everyone with decency and respect.",
+ "s1324527": {
+  "url": "https://techorama.nl/schedule/sessions/1324527",
+  "description": ".NET 11 ships this November at .NET Conf, and this session gives you a focused, developer‑ready survey of the top features you need to know. In one hour, we’ll cover the improvements that genuinely change how you build, modernize, and ship .NET applications - including new tooling, new language features, runtime upgrades, ASP.NET Core enhancements, AI‑ready capabilities, and major updates in .NET MAUI.\n\nYou’ll see the new dotnetup installer in action, explore C# 15’s powerful new union types, learn what’s new in AI‑powered development with MEAI and the Microsoft Agent Framework, and walk through the most important updates in ASP.NET Core, the runtime, MAUI, and EF Core.\n\nIn one hour, we’ll cover the features that truly matter for .NET developers:\ndotnetup - the new unified installer/updater that simplifies acquiring and managing .NET\n\nC# 15 union types - expressive domain modeling, safer APIs, and better pattern matching\n\nNew AI features in MEAI + MAF - improved tool‑calling, richer pipelines, better agent orchestration, and tighter integration with .NET 11 hosting and diagnostics\n\nASP.NET Core 11 updates - SSR improvements, QuickGrid SSR, validation updates, OpenTelemetry defaults, Zstandard compression, and more\n\nRuntime performance upgrades - GC tuning, JIT enhancements, faster startup, and container‑friendly improvements\n\n.NET MAUI improvements - better performance, improved hot reload, more reliable rendering, updated controls, and smoother mobile development workflows\n\nSDK & tooling updates - dotnet watch improvements including Aspire app‑host integration, automatic crash recovery, and device selection for MAUI/mobile projects\n\nNew features in EF Core - performance boosts, new LINQ capabilities, improved interceptors, and tooling updates shipping alongside .NET 11\n\nThis session gives you the clear, no‑nonsense survey of the top .NET 11 features you need to be fully ready to evaluate and adopt .NET 11.",
   "speakers": [
    {
-    "name": "Kathleen Dollard",
-    "tagline": "C# Connoisseur",
-    "photo": "https://oganizeprod.blob.core.windows.net/speakerimages/537df6ae-bc10-40cb-a34c-ee99cad387ec.jpg",
-    "page": "https://techorama.nl/schedule/speakers/kathleen-dollard",
-    "about": "Kathleen loves to code and loves to teach and talk about code. She’s written tons of articles, a book, and spoken at numerous conferences around the world. After 8 years on the .NET team, including as the .NET Languages PM guiding C#, F# and VB, Kathleen is focusing on speaking and teaching, about C#, .NET, code generation and life in tech. She's always ready to help developers take the next step in exploring the wonderful world we call code."
+    "name": "Jon Galloway",
+    "tagline": "Principal Program Manager, .NET Community Team",
+    "photo": "https://oganizeprod.blob.core.windows.net/speakerimages/c6f0ebfe-4c60-421c-b791-1aad49a18005.jpg",
+    "page": "https://techorama.nl/schedule/speakers/jon-galloway",
+    "about": "Jon is a Program Manager on the Microsoft Developer Division community team. He’s been developing software professionally since the late 1990’s, and over the years has written several books, popular .NET tutorials and samples, a top speaker on Microsoft Virtual Academy, and worked behind the scenes on large Microsoft keynote demonstrations. He’s helped run the Herding Code podcast for 10 years, and tweets as @jongalloway."
    }
   ]
  },
@@ -305,16 +305,16 @@
    }
   ]
  },
- "s1207790": {
-  "url": "https://techorama.nl/schedule/sessions/1207790",
-  "description": "As AI becomes embedded in every application, protecting sensitive data in Azure SQL is vital. This session explores how to secure sensitive data from AI agents and design a defense-in-depth model using Azure SQL's existing security stack - modern authentication, granular access control, data protection, monitoring, auditing, and more. Learn how to confidently use Azure SQL to power AI applications.",
+ "s1245634": {
+  "url": "https://techorama.nl/schedule/sessions/1245634",
+  "description": "AI is rapidly transforming modern applications, and SQL Server 2025 and Azure SQL now make it easier than ever for developers to bring AI directly into their transactional databases. In this session, you’ll learn how to build intelligent applications using native vector search capabilities, DiskANN indexing, and the new external model feature that enables seamless integration with AI models such as Azure OpenAI directly from T-SQL. We’ll begin with a practical introduction to Vector RAG, including text embeddings, vector storage, indexing, and similarity search.\n\nFrom there, we’ll move into live demonstrations showing how SQL Server 2025 and Azure SQL can power real-world AI solutions using your own business data. You’ll see how to generate and store embeddings, perform high-performance semantic searches with VECTOR_SEARCH and DiskANN indexes, and also explore Tool-Based RAG, where models retrieve structured data through tools using MCP and Data API Builder. Whether you’re modernizing existing applications or building entirely new AI-driven solutions, this session will show you how to leverage the latest SQL platform innovations to accelerate your AI journey.",
   "speakers": [
    {
-    "name": "Pieter Vanhove",
-    "tagline": "Senior Product Manager - Security & Governance Azure Database Platform",
-    "photo": "https://oganizeprod.blob.core.windows.net/speakerimages/dd1c302c-8103-4735-ac59-ddfedead6601.jpg",
-    "page": "https://techorama.nl/schedule/speakers/pieter-vanhove",
-    "about": "Pieter Vanhove is a Senior Program Manager in the Security & Governance Azure Database Platform team at Microsoft. He is the feature PM for ledger, Always Encrypted and Transparent Data Encryption which is all about bringing the power of Blockchain to SQL Server and data encryption. He has been working with SQL Server since 2000. Pieter has a profound knowledge in data security and loves the new Azure stuff. He is also a regular speaker at Belgian and international events."
+    "name": "Leonard Lobel",
+    "tagline": "CTO, Sleek Technologies, Inc.",
+    "photo": "https://oganizeprod.blob.core.windows.net/speakerimages/3a3a3916-00c0-4ec2-b993-a914ee3a5ad6.jpg",
+    "page": "https://techorama.nl/schedule/speakers/leonard-lobel",
+    "about": "Leonard Lobel (Microsoft MVP, Data Platform) is the chief technology officer and co-founder of Sleek Technologies, Inc., a New York-based development shop with an early adopter philosophy toward new technologies. He is also a Microsoft consultant at Ernst & Young.\n\nProgramming since 1979, Lenni specializes in Microsoft-based solutions, with experience that spans a variety of business domains, including publishing, financial, wholesale/retail, health care, and e-commerce. Lenni has served as chief architect and lead developer for various organizations, ranging from small shops to high-profile clients. He is also a consultant, trainer, and frequent speaker at local usergroup meetings, VSLive, SQL Bits, and other industry conferences.\n\nLenni has also authored several MS Press books and Pluralsight courses on SQL Server and Azure Cosmos DB programming."
    }
   ]
  },
@@ -383,16 +383,16 @@
    }
   ]
  },
- "s1324527": {
-  "url": "https://techorama.nl/schedule/sessions/1324527",
-  "description": ".NET 11 ships this November at .NET Conf, and this session gives you a focused, developer‑ready survey of the top features you need to know. In one hour, we’ll cover the improvements that genuinely change how you build, modernize, and ship .NET applications - including new tooling, new language features, runtime upgrades, ASP.NET Core enhancements, AI‑ready capabilities, and major updates in .NET MAUI.\n\nYou’ll see the new dotnetup installer in action, explore C# 15’s powerful new union types, learn what’s new in AI‑powered development with MEAI and the Microsoft Agent Framework, and walk through the most important updates in ASP.NET Core, the runtime, MAUI, and EF Core.\n\nIn one hour, we’ll cover the features that truly matter for .NET developers:\ndotnetup - the new unified installer/updater that simplifies acquiring and managing .NET\n\nC# 15 union types - expressive domain modeling, safer APIs, and better pattern matching\n\nNew AI features in MEAI + MAF - improved tool‑calling, richer pipelines, better agent orchestration, and tighter integration with .NET 11 hosting and diagnostics\n\nASP.NET Core 11 updates - SSR improvements, QuickGrid SSR, validation updates, OpenTelemetry defaults, Zstandard compression, and more\n\nRuntime performance upgrades - GC tuning, JIT enhancements, faster startup, and container‑friendly improvements\n\n.NET MAUI improvements - better performance, improved hot reload, more reliable rendering, updated controls, and smoother mobile development workflows\n\nSDK & tooling updates - dotnet watch improvements including Aspire app‑host integration, automatic crash recovery, and device selection for MAUI/mobile projects\n\nNew features in EF Core - performance boosts, new LINQ capabilities, improved interceptors, and tooling updates shipping alongside .NET 11\n\nThis session gives you the clear, no‑nonsense survey of the top .NET 11 features you need to be fully ready to evaluate and adopt .NET 11.",
+ "s1173528": {
+  "url": "https://techorama.nl/schedule/sessions/1173528",
+  "description": "You've read about OAuth 2.0 and decided to secure your web API using JWT access tokens. To implement this, you're likely relying on an open-source library to parse and validate these tokens, confident that your configuration will only accept tokens from your trusted issuer or token service.\n\nBut here's the real question: are you absolutely certain that your API only accepts access tokens issued by your service?\n\nIn this session, I’ll demonstrate some tricks that can bypass improperly configured token validation. You’ll see how easy it is to fool your API if you’re not careful. But don’t worry, I’ll also show how to write tests that ensure your application is protected against these exploits, keeping your data and users safe.",
   "speakers": [
    {
-    "name": "Jon Galloway",
-    "tagline": "Principal Program Manager, .NET Community Team",
-    "photo": "https://oganizeprod.blob.core.windows.net/speakerimages/c6f0ebfe-4c60-421c-b791-1aad49a18005.jpg",
-    "page": "https://techorama.nl/schedule/speakers/jon-galloway",
-    "about": "Jon is a Program Manager on the Microsoft Developer Division community team. He’s been developing software professionally since the late 1990’s, and over the years has written several books, popular .NET tutorials and samples, a top speaker on Microsoft Virtual Academy, and worked behind the scenes on large Microsoft keynote demonstrations. He’s helped run the Herding Code podcast for 10 years, and tweets as @jongalloway."
+    "name": "Wesley Cabus",
+    "tagline": "Customer Success Engineer at Duende Software. Coffee Enthusiast.",
+    "photo": "https://oganizeprod.blob.core.windows.net/speakerimages/36a0edaf-4f66-4f54-a522-94a92e6a7f3a.jpg",
+    "page": "https://techorama.nl/schedule/speakers/wesley-cabus",
+    "about": "Wesley is a Customer Success Engineer at Duende Software, helping Duende's customers to be successful by assisting developers with issues, documenting common problems and teaching about security / identity.\n\nHe's also a Microsoft MVP, board member of the VISUG meetup in Belgium and speaker at meetups and conferences, such as NDC London and Sydney, Copenhagen Developer Festival, WeAreDevelopers Berlin, Update Conference, TechDays, DevConf, DeveloperDays and Techorama."
    }
   ]
  },
@@ -780,16 +780,29 @@
    }
   ]
  },
- "s1230041": {
-  "url": "https://techorama.nl/schedule/sessions/1230041",
-  "description": "Agentic systems powered by LLMs don’t behave like traditional software. They’re non-deterministic, make decisions on the fly, and sometimes surprise you. So what does reliability even mean in a world like that?\n\nIn this session, we’ll take a fresh look at familiar SRE practices like SLOs and error budgets, and see how they hold up when your system doesn’t always give the same answer twice. We’ll also explore how chaos engineering can help you uncover failure modes in agent workflows before they show up in production.\n\nYou’ll walk away with practical ideas to bring more control and confidence to AI-driven systems, without killing the speed and flexibility that make them powerful.",
+ "s1250681": {
+  "url": "https://techorama.nl/schedule/sessions/1250681",
+  "description": "At the end of the day, kindness and compassion matters in all human endeavors, because we are fundamentally emotional creatures, even when we do not want to be. Look at how you respond to something unexpected in your IDE– most of us feel annoyed, slighted, or even angry when the computer is not kind to us. We’ll explore what aspects of the applications you write might be eliciting negative feelings in your users. As important as that is, it’s also critical to extend kindness throughout the development process and your career. That doesn’t backing off what you know is right, it means accepting that you may be wrong, really listening to those around you, and treating everyone with decency and respect.",
   "speakers": [
    {
-    "name": "Tom van den Berg",
-    "tagline": "Lead Developer | Tech Lead in .NET & Microsoft Azure",
-    "photo": "https://oganizeprod.blob.core.windows.net/speakerimages/04d09f55-4c37-4e17-b42e-06916b854b3e.png",
-    "page": "https://techorama.nl/schedule/speakers/tom-van-den-berg",
-    "about": "Tom van den Berg is a lead developer at Info Support.\nAs a developer he is part of a team that realizes new and innovative solutions.\nTom likes to think outside of the box and he gets a lot of energy from sharing knowledge and encourage other people to think outside of the box."
+    "name": "Kathleen Dollard",
+    "tagline": "C# Connoisseur",
+    "photo": "https://oganizeprod.blob.core.windows.net/speakerimages/537df6ae-bc10-40cb-a34c-ee99cad387ec.jpg",
+    "page": "https://techorama.nl/schedule/speakers/kathleen-dollard",
+    "about": "Kathleen loves to code and loves to teach and talk about code. She’s written tons of articles, a book, and spoken at numerous conferences around the world. After 8 years on the .NET team, including as the .NET Languages PM guiding C#, F# and VB, Kathleen is focusing on speaking and teaching, about C#, .NET, code generation and life in tech. She's always ready to help developers take the next step in exploring the wonderful world we call code."
+   }
+  ]
+ },
+ "s1207790": {
+  "url": "https://techorama.nl/schedule/sessions/1207790",
+  "description": "As AI becomes embedded in every application, protecting sensitive data in Azure SQL is vital. This session explores how to secure sensitive data from AI agents and design a defense-in-depth model using Azure SQL's existing security stack - modern authentication, granular access control, data protection, monitoring, auditing, and more. Learn how to confidently use Azure SQL to power AI applications.",
+  "speakers": [
+   {
+    "name": "Pieter Vanhove",
+    "tagline": "Senior Product Manager - Security & Governance Azure Database Platform",
+    "photo": "https://oganizeprod.blob.core.windows.net/speakerimages/dd1c302c-8103-4735-ac59-ddfedead6601.jpg",
+    "page": "https://techorama.nl/schedule/speakers/pieter-vanhove",
+    "about": "Pieter Vanhove is a Senior Program Manager in the Security & Governance Azure Database Platform team at Microsoft. He is the feature PM for ledger, Always Encrypted and Transparent Data Encryption which is all about bringing the power of Blockchain to SQL Server and data encryption. He has been working with SQL Server since 2000. Pieter has a profound knowledge in data security and loves the new Azure stuff. He is also a regular speaker at Belgian and international events."
    }
   ]
  },
@@ -806,21 +819,16 @@
    }
   ]
  },
- "s1183827": {
-  "url": "https://techorama.nl/schedule/sessions/1183827",
-  "description": "",
-  "speakers": []
- },
- "s1177275": {
-  "url": "https://techorama.nl/schedule/sessions/1177275",
-  "description": "How cool would it be to be able to access the services, hosted on your development environment running the code, from anywhere in a secure and controlled way? Even if you are behind firewalls and gateways, as long as you have internet connectivity your development machine can be reached from the internet with the help of Microsoft Dev Tunnels.\n\nIn this session we will discover the scenarios enabled by Dev Tunnels, such as debugging and testing your APIs locally when called from a remote environment running in the cloud. To have webhooks from pipelines call into your machine, or receive production events and run the handlers on your laptop, and much more.\n\nWe will look at the architecture and inner workings of Dev Tunnels and how to securely setup tunnels and connections. You are going to learn to use the CLI and even programmatically add Dev Tunnel capabilities to your code and tools.\n\nCollaborating across developer machines, run production demos partially from your laptop, and have a fast development workflow for testing and debugging cloud applications has never been easier. It runs on your machine. Dev Tunnels will let you call it from anywhere.",
+ "s1352040": {
+  "url": "https://techorama.nl/schedule/sessions/1352040",
+  "description": "Mission-critical systems fail in surprising ways: networks have hick-ups, retries can double-book, and observability might lie. In this session I will talk about real-world experiences learned from building software inside a utilities and banking landscapes.\nYou’ll see the most important patterns like outbox/inbox, retry & circuit breaker, event-driven decoupling, and some best practices around application telemetry.\n\nAs a bonus, I will show some tooling that helps you develop (Aspire, DevProxy and more). I will make sure you will leave the room with knowledge you can apply next Monday.",
   "speakers": [
    {
-    "name": "Alex Thissen",
-    "tagline": "Cloud buster",
-    "photo": "https://oganizeprod.blob.core.windows.net/speakerimages/223d2b9d-a582-4e14-bebb-d636fb030bda.jpg",
-    "page": "https://techorama.nl/schedule/speakers/alex-thissen",
-    "about": "Alex is an application development enthusiast since the late nineties and works as an architect, lead developer and mentor at large enterprises and small companies. He spends his time teaching other developers the details of the Microsoft development platform and frameworks, and coaches architects to design and build modern distributed applications at cloud scale. He has received the Microsoft Most Valuable Professional award for Visual Studio and Development Technologies since 2007. In his spare time Alex likes to participate in all kinds of sport, and loves playing and programming new and retro video games."
+    "name": "Loek Duys",
+    "tagline": "Freelance Azure & .NET Architect | 9× Microsoft MVP | Driving Cloud Adoption, Optimization & Secure Platforms | International Conference Speaker",
+    "photo": "https://oganizeprod.blob.core.windows.net/speakerimages/32249d51-53d2-46cd-92d0-4c2ee9ffdb08.jpg",
+    "page": "https://techorama.nl/schedule/speakers/loek-duys",
+    "about": "I help organizations design, build, and optimize secure, scalable Microsoft Azure platforms that deliver measurable business results.\nFor over 20 years, I’ve guided enterprise leaders and product teams through high-stakes cloud adoption, complex migrations, and performance optimization—combining deep technical expertise with a calm, collaborative style that keeps teams focused and projects on track.\n\nMy work includes:\n\n- (Enterprise) cloud adoption & migration – ensuring smooth transitions with minimal risk\n- Cost optimization & performance tuning – making Azure investments more efficient\n- Security & compliance – protecting business-critical systems and data\n- Platform engineering & landing zones – building robust foundations for innovation\n\nI’ve been honored with nine consecutive Microsoft MVP awards for my contributions to the global Azure and .NET community. Outside client projects, I speak at international conferences and run workshops that turn complex cloud concepts into actionable insights.\nRecent events include VS Live, NDC London, Oslo & Porto; SDD London; Copenhagen Developers Festival; Techorama Netherlands & Belgium; DevSum Sweden, Update Confs, and Developer Week Germany.\n\nNow, as founder of LoekD Consultancy BV, I partner with organizations ready to accelerate their Azure journey—whether that means starting fresh in the cloud or unlocking more value from what you already have, accelerated with the power of AI.\n\nContact me for full projects, workshops or sparring sessions.\n\n📬 Let’s connect:\n- LinkedIn: linkedin.com/in/loekd\n- GitHub: github.com/loekd\n- BlueSky: bsky.app/profile/loekd.com"
    }
   ]
  },
@@ -876,23 +884,16 @@
    }
   ]
  },
- "s1236348": {
-  "url": "https://techorama.nl/schedule/sessions/1236348",
-  "description": "An interactive 60-minute session on the failures, fixes, and hard-earned lessons behind modern data delivery.\n\nThe concept is simple: the audience gets a bingo card filled with recognizable data-platform disasters. During the session, two energetic Data Platform MVPs pull scenarios, ask the audience if they have seen them, tell short war stories, and explain what should have happened instead.\n\nAs the audience races to complete their bingo cards, the presenters translate every deployment disaster into a practical Database DevOps lesson. We cover version control, release flow, ownership, automation, approvals, testing, migrations, data movement, performance and, of course, communication.\n\nThis session is part AMA, part technical post-mortem, and part therapy session for data professionals. You will laugh, probably recognize too much, and leave with practical ways to make your next database deployment, data pipeline or platform migration a lot less bingo-worthy.\n\nMaybe your deployment process felt like a game of chance, but it's now time to stop playing bingo with production and join our session!",
+ "s1177275": {
+  "url": "https://techorama.nl/schedule/sessions/1177275",
+  "description": "How cool would it be to be able to access the services, hosted on your development environment running the code, from anywhere in a secure and controlled way? Even if you are behind firewalls and gateways, as long as you have internet connectivity your development machine can be reached from the internet with the help of Microsoft Dev Tunnels.\n\nIn this session we will discover the scenarios enabled by Dev Tunnels, such as debugging and testing your APIs locally when called from a remote environment running in the cloud. To have webhooks from pipelines call into your machine, or receive production events and run the handlers on your laptop, and much more.\n\nWe will look at the architecture and inner workings of Dev Tunnels and how to securely setup tunnels and connections. You are going to learn to use the CLI and even programmatically add Dev Tunnel capabilities to your code and tools.\n\nCollaborating across developer machines, run production demos partially from your laptop, and have a fast development workflow for testing and debugging cloud applications has never been easier. It runs on your machine. Dev Tunnels will let you call it from anywhere.",
   "speakers": [
    {
-    "name": "Danny Kruge",
-    "tagline": "Data Platform MVP | Mission Critical Engineer from Schuberg Philis",
-    "photo": "https://oganizeprod.blob.core.windows.net/speakerimages/cc663af1-7c0d-429a-9ba5-0a81e3056389.png",
-    "page": "https://techorama.nl/schedule/speakers/danny-kruge",
-    "about": "Danny Kruge is a Microsoft Data Platform MVP, Mission Critical Engineer at Schuberg Philis, and founder of Azure Heroes. With 16+ years of experience, he is a technology leader and hands-on engineer specialising in designing, building, and operating data and cloud platforms at scale.\n\nHis expertise spans SQL Server, Azure Data Factory, Microsoft Fabric, cloud architecture, platform engineering, and\nmission-critical environments, including OLTP and OLAP databases exceeding 3 TB. Throughout his career Danny has\ngrown from database administration into broader technical leadership, taking ownership of complex platforms and\nengineering initiatives across SQL Server, Azure, and AWS.\n\nDanny focuses on defining technical direction, simplifying complexity, and turning challenging problems into reliable,\nscalable solutions. He takes a pragmatic approach and stays focused on measurable outcomes, whether working on large\ndatabase platforms, cloud architecture, automation strategy, or organisational transformation.\n\nOriginally from Leicester, England and now based in the Netherlands, Danny founded Azure Heroes to bring the Microsoft\nAzure community together. He regularly contributes through speaking, articles, interviews, and events."
-   },
-   {
-    "name": "Tonie Huizer",
-    "tagline": "Software, Data, DevOps Consultant at Promicro",
-    "photo": "https://oganizeprod.blob.core.windows.net/speakerimages/2628c74d-b81e-4ae0-8adf-eba684fbf945.png",
-    "page": "https://techorama.nl/schedule/speakers/tonie-huizer",
-    "about": "Tonie Huizer is a Software, Data, and DevOps Consultant who believes good tech starts with understanding your people. A regular on international stages and a Microsoft Certified Azure Developer, Tonie loves helping teams simplify complex challenges; whether that’s modernizing database deployments, designing scalable systems, or just getting Dev and Ops to finally talk to each other.\n\nTonie is known for his clear, energetic presentation style and ability to make complex topics accessible and engaging. As a Redgate Community Ambassador, he advocates for database DevOps and contributes to open knowledge sharing through blogs, talks, and events across the globe. He also co-leads SeaQL Saturday, a community-driven event that blends education, networking, and Sammie, his Kooikerhondje mascot. (Because yes, even events are better with a dog.)\n\nWhether he's discussing Azure DevOps workflows, database release automation, or the cultural shifts required to implement DevOps successfully, Tonie brings real-world experience, humor, and actionable insights. His goal is to inspire professionals not just to adopt new technologies, but to transform how teams collaborate and innovate.\n\nAnd when he’s not speaking about tech, he might just be speaking about whisky. Tonie is a passionate whisky enthusiast who loves sharing stories, flavors, and the occasional tasting session with his fellow connoisseur of TasteWhisky. If you're into DevOps, data, and a well-aged dram on the side, Tonie’s your man!"
+    "name": "Alex Thissen",
+    "tagline": "Cloud buster",
+    "photo": "https://oganizeprod.blob.core.windows.net/speakerimages/223d2b9d-a582-4e14-bebb-d636fb030bda.jpg",
+    "page": "https://techorama.nl/schedule/speakers/alex-thissen",
+    "about": "Alex is an application development enthusiast since the late nineties and works as an architect, lead developer and mentor at large enterprises and small companies. He spends his time teaching other developers the details of the Microsoft development platform and frameworks, and coaches architects to design and build modern distributed applications at cloud scale. He has received the Microsoft Most Valuable Professional award for Visual Studio and Development Technologies since 2007. In his spare time Alex likes to participate in all kinds of sport, and loves playing and programming new and retro video games."
    }
   ]
  },
@@ -909,16 +910,16 @@
    }
   ]
  },
- "s1245634": {
-  "url": "https://techorama.nl/schedule/sessions/1245634",
-  "description": "AI is rapidly transforming modern applications, and SQL Server 2025 and Azure SQL now make it easier than ever for developers to bring AI directly into their transactional databases. In this session, you’ll learn how to build intelligent applications using native vector search capabilities, DiskANN indexing, and the new external model feature that enables seamless integration with AI models such as Azure OpenAI directly from T-SQL. We’ll begin with a practical introduction to Vector RAG, including text embeddings, vector storage, indexing, and similarity search.\n\nFrom there, we’ll move into live demonstrations showing how SQL Server 2025 and Azure SQL can power real-world AI solutions using your own business data. You’ll see how to generate and store embeddings, perform high-performance semantic searches with VECTOR_SEARCH and DiskANN indexes, and also explore Tool-Based RAG, where models retrieve structured data through tools using MCP and Data API Builder. Whether you’re modernizing existing applications or building entirely new AI-driven solutions, this session will show you how to leverage the latest SQL platform innovations to accelerate your AI journey.",
+ "s1176719": {
+  "url": "https://techorama.nl/schedule/sessions/1176719",
+  "description": "Passwords drive breaches, increase support costs, and frustrate users. Passkeys—standards‑based WebAuthn/FIDO2 credentials backed by public‑key cryptography and biometrics—deliver MFA‑level security with a one‑tap experience. They are resistant to phishing and replay, eliminate fragile SMS/OTP flows, reduce password reset tickets, and improve conversion rates on sign-in and checkout. With broad support across Windows, macOS, iOS, Android, and all modern browsers, passkeys are the most practical path to passwordless today.\n\nIn this session, we’ll add passkey authentication to an existing ASP.NET Core web application running on .NET 10. You’ll get a concise primer on how WebAuthn works (registration vs. authentication ceremonies, challenges, attestation, and assertions) and then see it implemented end‑to‑end: wiring up navigator.credentials.create() / get() on the client, verifying responses on the server, and storing credential IDs and public keys. We’ll integrate with ASP.NET Core Identity. We’ll also cover rollout and UX strategy.\n\nYou’ll leave with clear practical guidance to ship secure, delightful, passwordless sign‑in on .NET 10.",
   "speakers": [
    {
-    "name": "Leonard Lobel",
-    "tagline": "CTO, Sleek Technologies, Inc.",
-    "photo": "https://oganizeprod.blob.core.windows.net/speakerimages/3a3a3916-00c0-4ec2-b993-a914ee3a5ad6.jpg",
-    "page": "https://techorama.nl/schedule/speakers/leonard-lobel",
-    "about": "Leonard Lobel (Microsoft MVP, Data Platform) is the chief technology officer and co-founder of Sleek Technologies, Inc., a New York-based development shop with an early adopter philosophy toward new technologies. He is also a Microsoft consultant at Ernst & Young.\n\nProgramming since 1979, Lenni specializes in Microsoft-based solutions, with experience that spans a variety of business domains, including publishing, financial, wholesale/retail, health care, and e-commerce. Lenni has served as chief architect and lead developer for various organizations, ranging from small shops to high-profile clients. He is also a consultant, trainer, and frequent speaker at local usergroup meetings, VSLive, SQL Bits, and other industry conferences.\n\nLenni has also authored several MS Press books and Pluralsight courses on SQL Server and Azure Cosmos DB programming."
+    "name": "Andrew Clymer",
+    "tagline": "Co-Founder, Managing Director at Rock Solid Knowledge",
+    "photo": "https://oganizeprod.blob.core.windows.net/speakerimages/c465df65-cc9b-4f2d-9c54-a0d699c8fe46.jpg",
+    "page": "https://techorama.nl/schedule/speakers/andrew-clymer",
+    "about": "Andy has programmed professionally in various languages, including 6502 assemblers, C, C++, Java and C#. He’s a co-founder at Rock Solid Knowledge, where he’s responsible for managing the Identity and Access Management Division, and growing the company’s product portfolio utilising a range of technologies including web, mobile and Umbraco CMS.\n\nOver the years Andy has trained thousands of software developers, spoken at dozens of technical conferences, and is the co-author of Pro Asynchronous Programming with .NET, published by Apress."
    }
   ]
  },
@@ -1249,16 +1250,16 @@
    }
   ]
  },
- "s1194187": {
-  "url": "https://techorama.nl/schedule/sessions/1194187",
-  "description": "At Info Support, we use agents a lot. This comes with a sizable credit card bill and introduces challenges around rate limits, availability, billing, and more. We’ve adopted an interesting approach to this by building an AI platform strategy that combines cloud computing across multiple providers with locally hosted LLMs in our data center.\n\nIn this session, we’ll explore the challenges we faced when adopting AI tools at our organization, why we decided to combine cloud computing with locally hosted models, and how we’re building our platform to support this. We’ll not only explore technical and architectural patterns, but also examine how we combine platform architecture with our way of working to maximize the positive impact on our work.",
+ "s1207611": {
+  "url": "https://techorama.nl/schedule/sessions/1207611",
+  "description": "Over the last year, AI coding assistants have evolved into agentic systems that plan, act, and make changes across the developer workflow. These agents do not just suggest code anymore. They run tools, modify configs, manage dependencies, open pull requests, and sometimes fix issues end to end with minimal human input. This shift dramatically expands the attack surface. Prompt injection now targets agents instead of chat boxes, poisoned repositories influence multi step decisions, and a single compromised instruction file can steer an agent into leaking secrets, weakening security controls, or introducing backdoors while appearing helpful and correct.\n\nThis session looks at what agentic AI means for developer security in practice. We will break down how autonomous and semi autonomous coding agents fail, where trust in automation goes too far, and why traditional secure coding guidance is no longer enough. The focus is on concrete scenarios teams are already facing and on pragmatic guardrails that keep agents useful without giving them unchecked power. The goal is to help security and engineering teams work with agentic AI in a way that scales productivity while keeping control, visibility, and accountability firmly in place.",
   "speakers": [
    {
-    "name": "Willem Meints",
-    "tagline": "Staff Engineer",
-    "photo": "https://oganizeprod.blob.core.windows.net/speakerimages/b884760a-5bc9-4417-9b66-604cc0a89264.jpg",
-    "page": "https://techorama.nl/schedule/speakers/willem-meints",
-    "about": "Willem is a Staff Engineer at Info Support, where he helps more than 250 developers move beyond AI-assisted coding toward real agentic engineering. He helped kickstart the internal AI platform behind that shift, coaches teams through hands-on adoption programs, and designs workshops that turn curiosity about agents into everyday practice. His recent work ranges from autonomous agent pipelines that deliver code unattended to risk-tiered AI code review that keeps human attention where it matters most."
+    "name": "Maxim Salnikov",
+    "tagline": "AI Dev Tools & Platforms Solution Engineer at Microsoft, Tech Communities Lead, Keynote Speaker",
+    "photo": "https://oganizeprod.blob.core.windows.net/speakerimages/fdde781e-b198-49ca-9147-8fec90eef254.jpg",
+    "page": "https://techorama.nl/schedule/speakers/maxim-salnikov",
+    "about": "Maxim Salnikov is a tech community enthusiast based in Oslo. With more than two decades of experience as a developer, he shares his expertise in the web platform, cloud computing, and AI by speaking at and delivering training for developer audiences worldwide.\n\nBy day, Maxim supports developer teams across Europe as a Senior Solution Engineer at Microsoft, focusing on AI-native developer tools and platforms. He is also an active builder of developer tooling, creating and maintaining AI agent assets that help engineers adopt AI-assisted development more effectively.\n\nIn the evenings, Maxim runs events for some of Norway’s largest web, AI, and cloud developer communities. He is passionate about exploring the possibilities of Generative AI, with a strong focus on developer productivity. To share insights and connect with practitioners globally, he founded and organized the Prompt Engineering Conference, the key global event dedicated entirely to prompting from the engineering discipline perspective."
    }
   ]
  },
@@ -1379,16 +1380,16 @@
    }
   ]
  },
- "s1207611": {
-  "url": "https://techorama.nl/schedule/sessions/1207611",
-  "description": "Over the last year, AI coding assistants have evolved into agentic systems that plan, act, and make changes across the developer workflow. These agents do not just suggest code anymore. They run tools, modify configs, manage dependencies, open pull requests, and sometimes fix issues end to end with minimal human input. This shift dramatically expands the attack surface. Prompt injection now targets agents instead of chat boxes, poisoned repositories influence multi step decisions, and a single compromised instruction file can steer an agent into leaking secrets, weakening security controls, or introducing backdoors while appearing helpful and correct.\n\nThis session looks at what agentic AI means for developer security in practice. We will break down how autonomous and semi autonomous coding agents fail, where trust in automation goes too far, and why traditional secure coding guidance is no longer enough. The focus is on concrete scenarios teams are already facing and on pragmatic guardrails that keep agents useful without giving them unchecked power. The goal is to help security and engineering teams work with agentic AI in a way that scales productivity while keeping control, visibility, and accountability firmly in place.",
+ "s1194187": {
+  "url": "https://techorama.nl/schedule/sessions/1194187",
+  "description": "At Info Support, we use agents a lot. This comes with a sizable credit card bill and introduces challenges around rate limits, availability, billing, and more. We’ve adopted an interesting approach to this by building an AI platform strategy that combines cloud computing across multiple providers with locally hosted LLMs in our data center.\n\nIn this session, we’ll explore the challenges we faced when adopting AI tools at our organization, why we decided to combine cloud computing with locally hosted models, and how we’re building our platform to support this. We’ll not only explore technical and architectural patterns, but also examine how we combine platform architecture with our way of working to maximize the positive impact on our work.",
   "speakers": [
    {
-    "name": "Maxim Salnikov",
-    "tagline": "AI Dev Tools & Platforms Solution Engineer at Microsoft, Tech Communities Lead, Keynote Speaker",
-    "photo": "https://oganizeprod.blob.core.windows.net/speakerimages/fdde781e-b198-49ca-9147-8fec90eef254.jpg",
-    "page": "https://techorama.nl/schedule/speakers/maxim-salnikov",
-    "about": "Maxim Salnikov is a tech community enthusiast based in Oslo. With more than two decades of experience as a developer, he shares his expertise in the web platform, cloud computing, and AI by speaking at and delivering training for developer audiences worldwide.\n\nBy day, Maxim supports developer teams across Europe as a Senior Solution Engineer at Microsoft, focusing on AI-native developer tools and platforms. He is also an active builder of developer tooling, creating and maintaining AI agent assets that help engineers adopt AI-assisted development more effectively.\n\nIn the evenings, Maxim runs events for some of Norway’s largest web, AI, and cloud developer communities. He is passionate about exploring the possibilities of Generative AI, with a strong focus on developer productivity. To share insights and connect with practitioners globally, he founded and organized the Prompt Engineering Conference, the key global event dedicated entirely to prompting from the engineering discipline perspective."
+    "name": "Willem Meints",
+    "tagline": "Staff Engineer",
+    "photo": "https://oganizeprod.blob.core.windows.net/speakerimages/b884760a-5bc9-4417-9b66-604cc0a89264.jpg",
+    "page": "https://techorama.nl/schedule/speakers/willem-meints",
+    "about": "Willem is a Staff Engineer at Info Support, where he helps more than 250 developers move beyond AI-assisted coding toward real agentic engineering. He helped kickstart the internal AI platform behind that shift, coaches teams through hands-on adoption programs, and designs workshops that turn curiosity about agents into everyday practice. His recent work ranges from autonomous agent pipelines that deliver code unattended to risk-tiered AI code review that keeps human attention where it matters most."
    }
   ]
  },
@@ -1405,16 +1406,16 @@
    }
   ]
  },
- "s1173528": {
-  "url": "https://techorama.nl/schedule/sessions/1173528",
-  "description": "You've read about OAuth 2.0 and decided to secure your web API using JWT access tokens. To implement this, you're likely relying on an open-source library to parse and validate these tokens, confident that your configuration will only accept tokens from your trusted issuer or token service.\n\nBut here's the real question: are you absolutely certain that your API only accepts access tokens issued by your service?\n\nIn this session, I’ll demonstrate some tricks that can bypass improperly configured token validation. You’ll see how easy it is to fool your API if you’re not careful. But don’t worry, I’ll also show how to write tests that ensure your application is protected against these exploits, keeping your data and users safe.",
+ "s1230041": {
+  "url": "https://techorama.nl/schedule/sessions/1230041",
+  "description": "Agentic systems powered by LLMs don’t behave like traditional software. They’re non-deterministic, make decisions on the fly, and sometimes surprise you. So what does reliability even mean in a world like that?\n\nIn this session, we’ll take a fresh look at familiar SRE practices like SLOs and error budgets, and see how they hold up when your system doesn’t always give the same answer twice. We’ll also explore how chaos engineering can help you uncover failure modes in agent workflows before they show up in production.\n\nYou’ll walk away with practical ideas to bring more control and confidence to AI-driven systems, without killing the speed and flexibility that make them powerful.",
   "speakers": [
    {
-    "name": "Wesley Cabus",
-    "tagline": "Customer Success Engineer at Duende Software. Coffee Enthusiast.",
-    "photo": "https://oganizeprod.blob.core.windows.net/speakerimages/36a0edaf-4f66-4f54-a522-94a92e6a7f3a.jpg",
-    "page": "https://techorama.nl/schedule/speakers/wesley-cabus",
-    "about": "Wesley is a Customer Success Engineer at Duende Software, helping Duende's customers to be successful by assisting developers with issues, documenting common problems and teaching about security / identity.\n\nHe's also a Microsoft MVP, board member of the VISUG meetup in Belgium and speaker at meetups and conferences, such as NDC London and Sydney, Copenhagen Developer Festival, WeAreDevelopers Berlin, Update Conference, TechDays, DevConf, DeveloperDays and Techorama."
+    "name": "Tom van den Berg",
+    "tagline": "Lead Developer | Tech Lead in .NET & Microsoft Azure",
+    "photo": "https://oganizeprod.blob.core.windows.net/speakerimages/04d09f55-4c37-4e17-b42e-06916b854b3e.png",
+    "page": "https://techorama.nl/schedule/speakers/tom-van-den-berg",
+    "about": "Tom van den Berg is a lead developer at Info Support.\nAs a developer he is part of a team that realizes new and innovative solutions.\nTom likes to think outside of the box and he gets a lot of energy from sharing knowledge and encourage other people to think outside of the box."
    }
   ]
  },
@@ -1471,16 +1472,23 @@
    }
   ]
  },
- "s1211675": {
-  "url": "https://techorama.nl/schedule/sessions/1211675",
-  "description": "You won't believe number 7!\n\nI know, the clickbait joke is rather lame, but I can assure you that this session is not! In this session, I'll take you on a journey in some lesser known features of EF Core and how they can benefit your projects.\n\nIn the .NET 10 era, EF Core has far surpassed what Entity Framework used to be, and has become an ORM powerhouse with features that are useful in many different scenarios. But unless you are constantly keeping up with the latest evolutions, chances are you are missing some opportunities to improve your EF Core usage in your projects.\n\nAnd as the audience, you will have a say in some of the content of this session!",
+ "s1236348": {
+  "url": "https://techorama.nl/schedule/sessions/1236348",
+  "description": "An interactive 60-minute session on the failures, fixes, and hard-earned lessons behind modern data delivery.\n\nThe concept is simple: the audience gets a bingo card filled with recognizable data-platform disasters. During the session, two energetic Data Platform MVPs pull scenarios, ask the audience if they have seen them, tell short war stories, and explain what should have happened instead.\n\nAs the audience races to complete their bingo cards, the presenters translate every deployment disaster into a practical Database DevOps lesson. We cover version control, release flow, ownership, automation, approvals, testing, migrations, data movement, performance and, of course, communication.\n\nThis session is part AMA, part technical post-mortem, and part therapy session for data professionals. You will laugh, probably recognize too much, and leave with practical ways to make your next database deployment, data pipeline or platform migration a lot less bingo-worthy.\n\nMaybe your deployment process felt like a game of chance, but it's now time to stop playing bingo with production and join our session!",
   "speakers": [
    {
-    "name": "Hannes Lowette",
-    "tagline": "Principal Consultant @ Axxes; Microsoft MVP",
-    "photo": "https://oganizeprod.blob.core.windows.net/speakerimages/497f9bfb-7e28-4773-81e3-e853ca09ccde.jpg",
-    "page": "https://techorama.nl/schedule/speakers/hannes-lowette",
-    "about": "Hannes is a developer, a coach and a father of 3.\n\nIn software development, he has always had a passion for performance, databases, distributed systems and large scale applications. He's always weighing every solution's benefits against its drawbacks, reducing friction where possible.\n\nAs a coach, he is enthusiastic about knowledge sharing, personal growth and building careers. Building a company culture around learning is what gets him out of bed.\n\nIn his free time, when he’s not building LEGO® castles with his kids, he likes to spend time building guitars, playing chess, mountain biking and doing all round geeky stuff.\n\nYou can often find him on stage at the conference afterparty, especially as the guitarist of Dylan Beattie & the Linebreakers."
+    "name": "Danny Kruge",
+    "tagline": "Data Platform MVP | Mission Critical Engineer from Schuberg Philis",
+    "photo": "https://oganizeprod.blob.core.windows.net/speakerimages/cc663af1-7c0d-429a-9ba5-0a81e3056389.png",
+    "page": "https://techorama.nl/schedule/speakers/danny-kruge",
+    "about": "Danny Kruge is a Microsoft Data Platform MVP, Mission Critical Engineer at Schuberg Philis, and founder of Azure Heroes. With 16+ years of experience, he is a technology leader and hands-on engineer specialising in designing, building, and operating data and cloud platforms at scale.\n\nHis expertise spans SQL Server, Azure Data Factory, Microsoft Fabric, cloud architecture, platform engineering, and\nmission-critical environments, including OLTP and OLAP databases exceeding 3 TB. Throughout his career Danny has\ngrown from database administration into broader technical leadership, taking ownership of complex platforms and\nengineering initiatives across SQL Server, Azure, and AWS.\n\nDanny focuses on defining technical direction, simplifying complexity, and turning challenging problems into reliable,\nscalable solutions. He takes a pragmatic approach and stays focused on measurable outcomes, whether working on large\ndatabase platforms, cloud architecture, automation strategy, or organisational transformation.\n\nOriginally from Leicester, England and now based in the Netherlands, Danny founded Azure Heroes to bring the Microsoft\nAzure community together. He regularly contributes through speaking, articles, interviews, and events."
+   },
+   {
+    "name": "Tonie Huizer",
+    "tagline": "Software, Data, DevOps Consultant at Promicro",
+    "photo": "https://oganizeprod.blob.core.windows.net/speakerimages/2628c74d-b81e-4ae0-8adf-eba684fbf945.png",
+    "page": "https://techorama.nl/schedule/speakers/tonie-huizer",
+    "about": "Tonie Huizer is a Software, Data, and DevOps Consultant who believes good tech starts with understanding your people. A regular on international stages and a Microsoft Certified Azure Developer, Tonie loves helping teams simplify complex challenges; whether that’s modernizing database deployments, designing scalable systems, or just getting Dev and Ops to finally talk to each other.\n\nTonie is known for his clear, energetic presentation style and ability to make complex topics accessible and engaging. As a Redgate Community Ambassador, he advocates for database DevOps and contributes to open knowledge sharing through blogs, talks, and events across the globe. He also co-leads SeaQL Saturday, a community-driven event that blends education, networking, and Sammie, his Kooikerhondje mascot. (Because yes, even events are better with a dog.)\n\nWhether he's discussing Azure DevOps workflows, database release automation, or the cultural shifts required to implement DevOps successfully, Tonie brings real-world experience, humor, and actionable insights. His goal is to inspire professionals not just to adopt new technologies, but to transform how teams collaborate and innovate.\n\nAnd when he’s not speaking about tech, he might just be speaking about whisky. Tonie is a passionate whisky enthusiast who loves sharing stories, flavors, and the occasional tasting session with his fellow connoisseur of TasteWhisky. If you're into DevOps, data, and a well-aged dram on the side, Tonie’s your man!"
    }
   ]
  },

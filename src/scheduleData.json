@@ -1,0 +1,1137 @@
+{
+ "updated": "2026-10-21T20:49:18.962Z",
+ "workshops": [
+  {
+   "id": "w1",
+   "slug": "from-todo-to-ta-da-agentic-engineering-on-github",
+   "title": "From TODO to Ta-Da: Agentic Engineering on GitHub",
+   "who": "Colin Dembovsky, Josh Johanning"
+  },
+  {
+   "id": "w2",
+   "slug": "mastering-modern-architecture-building-flexible-distributed-systems-with-hands-on-code",
+   "title": "Mastering Modern Architecture: Building Flexible, Distributed Systems with Hands-On Code",
+   "who": "Oliver Sturm"
+  },
+  {
+   "id": "w3",
+   "slug": "software-architecture-fundamentals",
+   "title": "Software Architecture Fundamentals",
+   "who": "Ardalis"
+  },
+  {
+   "id": "w4",
+   "slug": "vibe-coding-for-production",
+   "title": "Vibe Coding for Production",
+   "who": "Nick Chapsas"
+  }
+ ],
+ "tue": [
+  {
+   "t": [
+    "08:30",
+    "09:30"
+   ],
+   "s": [
+    {
+     "id": "s1327742",
+     "room": "Room 12",
+     "title": "Scale vs Soul",
+     "who": "Dado Van Peteghem",
+     "track": "AI",
+     "lvl": "I"
+    }
+   ]
+  },
+  {
+   "t": [
+    "09:45",
+    "10:45"
+   ],
+   "s": [
+    {
+     "id": "s1235596",
+     "room": "Mission 1 (JB)",
+     "title": "Who's in Charge? Taking Control of Coding Agents with OpenCode and OpenSpec",
+     "who": "Geert van der Cruijsen",
+     "track": "AI",
+     "lvl": "I"
+    },
+    {
+     "id": "s1195296",
+     "room": "Mission 2 (JB)",
+     "title": "One Size Fits None: Make Azure best practices work for your organization",
+     "who": "Barbara Forbes",
+     "track": "ARC",
+     "lvl": "I"
+    },
+    {
+     "id": "s1196856",
+     "room": "Progress (JB)",
+     "title": "Scrum to Swarm: Rethinking Software Delivery for the Age of Agents",
+     "who": "Colin Dembovsky",
+     "track": "AI",
+     "lvl": "I"
+    },
+    {
+     "id": "s1246271",
+     "room": "Room 10",
+     "title": "MITRE ATT&CK for Developers",
+     "who": "Chris Ayers",
+     "track": "ARC",
+     "lvl": "M"
+    },
+    {
+     "id": "s1321242",
+     "room": "Room 11",
+     "title": "Inside the Agent Loop: build a .NET Flight Recorder for Github Copilot, Cursor and Claude",
+     "who": "Christophe Nasarre",
+     "track": "AI",
+     "lvl": "M"
+    },
+    {
+     "id": "s1216344",
+     "room": "Room 12",
+     "title": "Weird C# features you (don't) need to know about",
+     "who": "Jiří Činčura",
+     "track": "DEV",
+     "lvl": "M"
+    },
+    {
+     "id": "s1233066",
+     "room": "Room 13",
+     "title": "Aspireify your app in an hour",
+     "who": "Maddy Montaquila, Tommaso Stocchi",
+     "track": "DEV",
+     "lvl": "I"
+    },
+    {
+     "id": "s1187364",
+     "room": "Room 7",
+     "title": "Application Performance Optimisation in Practice",
+     "who": "Steve Gordon",
+     "track": "DEV",
+     "lvl": "M"
+    },
+    {
+     "id": "s1151769",
+     "room": "Room 8",
+     "title": "Mastering Multi-Agent Madness With Microsoft Agent Framework",
+     "who": "Matthijs van der Veer",
+     "track": "AI",
+     "lvl": "M"
+    },
+    {
+     "id": "s1192213",
+     "room": "Room 9",
+     "title": "Thread by Thread: Lessons from Migrating to Fabric",
+     "who": "Sam Debruyn",
+     "track": "DATA",
+     "lvl": "I"
+    }
+   ]
+  },
+  {
+   "t": [
+    "11:15",
+    "12:15"
+   ],
+   "s": [
+    {
+     "id": "s1211675",
+     "room": "Mission 1 (JB)",
+     "title": "10 things you didn't know EF Core can do",
+     "who": "Hannes Lowette",
+     "track": "DEV",
+     "lvl": "M"
+    },
+    {
+     "id": "s1207641",
+     "room": "Mission 2 (JB)",
+     "title": "Agents Don't Sleep: How AI Turns a 3 AM Incident into a Reviewable Fix",
+     "who": "Jurre Brandsen",
+     "track": "AI",
+     "lvl": "M"
+    },
+    {
+     "id": "s1244217",
+     "room": "Progress (JB)",
+     "title": "Modular Code with Examples in C#",
+     "who": "Ian Cooper",
+     "track": "DEV",
+     "lvl": "M"
+    },
+    {
+     "id": "s1320606",
+     "room": "Room 10",
+     "title": "Fabric FinOps - Cost Optimization for Fabric",
+     "who": "Alexander Arvidsson",
+     "track": "DATA",
+     "lvl": "M"
+    },
+    {
+     "id": "s1318364",
+     "room": "Room 11",
+     "title": "Let's build our own coding agent",
+     "who": "Max Gfeller",
+     "track": "AI",
+     "lvl": "M"
+    },
+    {
+     "id": "s1324527",
+     "room": "Room 12",
+     "title": "What's New In .NET 11",
+     "who": "Jon Galloway",
+     "track": "DEV",
+     "lvl": "I"
+    },
+    {
+     "id": "s1246903",
+     "room": "Room 13",
+     "title": "Beat the Clock: Building a Production-Ready Agentic App in 60 Minutes",
+     "who": "Jeff Prosise",
+     "track": "AI",
+     "lvl": "A"
+    },
+    {
+     "id": "s1320836",
+     "room": "Room 7",
+     "title": "Do It With Style: Rethinking CSS",
+     "who": "Dylan Beattie",
+     "track": "DEV",
+     "lvl": "M"
+    },
+    {
+     "id": "s1245628",
+     "room": "Room 8",
+     "title": "What’s New for Developers in SQL Server 2025",
+     "who": "Leonard Lobel",
+     "track": "DEV",
+     "lvl": "M"
+    },
+    {
+     "id": "s1316134",
+     "room": "Room 9",
+     "title": "Building an Application with Copilot and Lovable: The Easy, the Hard, and the Unexpected",
+     "who": "Juliana Smith",
+     "track": "AI",
+     "lvl": "I"
+    }
+   ]
+  },
+  {
+   "t": [
+    "12:30",
+    "13:00"
+   ],
+   "s": [
+    {
+     "id": "s1309018",
+     "room": "Room 12",
+     "title": "Ask and You Shall Generate: Building and Answering Questions at Cito with AI",
+     "who": "Christian van Dijk",
+     "track": "AI",
+     "lvl": "I"
+    }
+   ]
+  },
+  {
+   "t": [
+    "13:15",
+    "14:15"
+   ],
+   "s": [
+    {
+     "id": "s1185098",
+     "room": "Mission 1 (JB)",
+     "title": "The Myth of Message Ordering: What Message Brokers Actually Guarantee",
+     "who": "Poornima Nayar",
+     "track": "ARC",
+     "lvl": "M"
+    },
+    {
+     "id": "s1245634",
+     "room": "Mission 2 (JB)",
+     "title": "Developer’s Guide to AI in SQL Server 2025 and Azure SQL",
+     "who": "Leonard Lobel",
+     "track": "DEV",
+     "lvl": "M"
+    },
+    {
+     "id": "s1317875",
+     "room": "Progress (JB)",
+     "title": "Developer Workflows in AI Age - Local or Cloud 🧠🤖",
+     "who": "Sam Basu",
+     "track": "AI",
+     "lvl": "M"
+    },
+    {
+     "id": "s1245292",
+     "room": "Room 10",
+     "title": "Gatekeeping the API Azure-native vs Open-source on Kubernetes",
+     "who": "Filip Verlee",
+     "track": "OPS",
+     "lvl": "M"
+    },
+    {
+     "id": "s1226286",
+     "room": "Room 11",
+     "title": "How I Migrated a Production Blazor App in Under 40 Hours Using AI",
+     "who": "Hans Muns",
+     "track": "DEV",
+     "lvl": "I"
+    },
+    {
+     "id": "s1207969",
+     "room": "Room 12",
+     "title": "Antipatterns, Smells, and Worst Practices 💩😱",
+     "who": "Ardalis",
+     "track": "DEV",
+     "lvl": "I"
+    },
+    {
+     "id": "s1190251",
+     "room": "Room 13",
+     "title": "Build an Enterprise-Grade MCP Server",
+     "who": "Rockford Lhotka",
+     "track": "AI",
+     "lvl": "I"
+    },
+    {
+     "id": "s1173528",
+     "room": "Room 7",
+     "title": "Are you sure your access tokens are really secure?",
+     "who": "Wesley Cabus",
+     "track": "ARC",
+     "lvl": "M"
+    },
+    {
+     "id": "s1228359",
+     "room": "Room 8",
+     "title": "Mission Copilot Autofix: Securing the World’s Code with AI and GitHub Advanced Security",
+     "who": "Randy Pagels",
+     "track": "ARC",
+     "lvl": "I"
+    },
+    {
+     "id": "s1205255",
+     "room": "Room 9",
+     "title": "Doctor, my agent keeps acting up",
+     "who": "Ruben Scheedler",
+     "track": "AI",
+     "lvl": "I"
+    }
+   ]
+  },
+  {
+   "t": [
+    "14:30",
+    "15:30"
+   ],
+   "s": [
+    {
+     "id": "s1151925",
+     "room": "Mission 1 (JB)",
+     "title": "Change is inevitable: versioning event-driven systems",
+     "who": "Laila Bougria",
+     "track": "ARC",
+     "lvl": "A"
+    },
+    {
+     "id": "s1187368",
+     "room": "Mission 2 (JB)",
+     "title": "Unveiling .NET Secrets with the World's Smallest C# Program",
+     "who": "Steve Gordon",
+     "track": "DEV",
+     "lvl": "A"
+    },
+    {
+     "id": "s1252440",
+     "room": "Progress (JB)",
+     "title": "Your Pipeline Is the Target: A DevOps Field Guide to Modern Supply Chain Security",
+     "who": "Brian Randell",
+     "track": "OPS",
+     "lvl": "M"
+    },
+    {
+     "id": "s1175301",
+     "room": "Room 10",
+     "title": "Building AI-Ready Data Infrastructure at Terabyte Scale with Terraform and Azure",
+     "who": "Florian Lenz",
+     "track": "DATA",
+     "lvl": "M"
+    },
+    {
+     "id": "s1246988",
+     "room": "Room 11",
+     "title": "One arrow, multiple breaches: what I've learned jailbreaking AI chatbots",
+     "who": "Yianna Paris",
+     "track": "ARC",
+     "lvl": "I"
+    },
+    {
+     "id": "s1216224",
+     "room": "Room 12",
+     "title": "POC Prison: Why agentic systems never escape the lab and how to fix that in 90 days",
+     "who": "Luise Freese",
+     "track": "AI",
+     "lvl": "I"
+    },
+    {
+     "id": "s1275951",
+     "room": "Room 13",
+     "title": "From Code Health to Quality Gates with GitHub Code Quality",
+     "who": "Josh Johanning, Tiago Pascoal",
+     "track": "DEV",
+     "lvl": "I"
+    },
+    {
+     "id": "s1241958",
+     "room": "Room 7",
+     "title": "Above the Cloud: Building Data Centers in Space",
+     "who": "Richard Campbell",
+     "track": "AI",
+     "lvl": "M"
+    },
+    {
+     "id": "s1247289",
+     "room": "Room 8",
+     "title": "Blazor, MAUI, WPF, or WinForms? Picking the Right .NET UI Framework in the AI Coding Era",
+     "who": "Mark Allibone",
+     "track": "DEV",
+     "lvl": "M"
+    },
+    {
+     "id": "s1210579",
+     "room": "Room 9",
+     "title": "Doing Agentic Micro UI Right — User Experience Rules",
+     "who": "Dean Schuster",
+     "track": "AI",
+     "lvl": "I"
+    }
+   ]
+  },
+  {
+   "t": [
+    "16:00",
+    "17:00"
+   ],
+   "s": [
+    {
+     "id": "s1247138",
+     "room": "Mission 1 (JB)",
+     "title": "The Developers Guide to Azure SQL Hyperscale",
+     "who": "Bob Ward",
+     "track": "DATA",
+     "lvl": "M"
+    },
+    {
+     "id": "s1246663",
+     "room": "Mission 2 (JB)",
+     "title": "Securing ASP.NET Core Today: Lessons from the New OWASP Top 10",
+     "who": "Christian Wenz",
+     "track": "ARC",
+     "lvl": "M"
+    },
+    {
+     "id": "s1152280",
+     "room": "Progress (JB)",
+     "title": "Telemetry in .NET",
+     "who": "Stephen Cleary",
+     "track": "DEV",
+     "lvl": "M"
+    },
+    {
+     "id": "s1330095",
+     "room": "Room 10",
+     "title": "When Abstractions Leak: Optimizing Message Queuing on SQL Server",
+     "who": "Tomasz Masternak",
+     "track": "DEV",
+     "lvl": "M"
+    },
+    {
+     "id": "s1232821",
+     "room": "Room 11",
+     "title": "It's a trap! Stuff a developer needs to know about Azure networking",
+     "who": "Rik Hepworth",
+     "track": "OPS",
+     "lvl": "I"
+    },
+    {
+     "id": "s1208113",
+     "room": "Room 12",
+     "title": "You’re Not Just Tired: The Psychology of Burnout",
+     "who": "Arthur Doler",
+     "track": "LEAD",
+     "lvl": "I"
+    },
+    {
+     "id": "s1177277",
+     "room": "Room 13",
+     "title": "Using Microsoft Kiota to go from OpenAPI to first-class .NET client SDKs",
+     "who": "Alex Thissen",
+     "track": "DEV",
+     "lvl": "M"
+    },
+    {
+     "id": "s1241884",
+     "room": "Room 7",
+     "title": "Trust Fall: Building UX for Apps that work on their own",
+     "who": "David Ortinau",
+     "track": "AI",
+     "lvl": "M"
+    },
+    {
+     "id": "s1246312",
+     "room": "Room 8",
+     "title": "Copilot Studio for Developers: What You Need to Unlearn",
+     "who": "Christina Wheeler",
+     "track": "AI",
+     "lvl": "M"
+    },
+    {
+     "id": "s1155333",
+     "room": "Room 9",
+     "title": "Building AI solutions using Azure AI Foundry",
+     "who": "Tomaž Kaštrun",
+     "track": "AI",
+     "lvl": "M"
+    }
+   ]
+  },
+  {
+   "t": [
+    "17:15",
+    "18:15"
+   ],
+   "s": [
+    {
+     "id": "s1153820",
+     "room": "Mission 1 (JB)",
+     "title": "Reliable Agentic Systems need Durable Execution",
+     "who": "Marc Duiker",
+     "track": "AI",
+     "lvl": "A"
+    },
+    {
+     "id": "s1329755",
+     "room": "Mission 2 (JB)",
+     "title": "Problems scale faster with AI",
+     "who": "Liuba Gonta",
+     "track": "LEAD",
+     "lvl": "I"
+    },
+    {
+     "id": "s1246091",
+     "room": "Progress (JB)",
+     "title": "Azure Service Bus - Behind the scenes",
+     "who": "Clemens Vasters",
+     "track": "ARC",
+     "lvl": "M"
+    },
+    {
+     "id": "s1193663",
+     "room": "Room 10",
+     "title": "Modern cross-platform applications with .NET and Avalonia UI",
+     "who": "Roland König",
+     "track": "DEV",
+     "lvl": "I"
+    },
+    {
+     "id": "s1241602",
+     "room": "Room 11",
+     "title": "Optimizing data for agentic use",
+     "who": "Jelle Fremery",
+     "track": "DATA",
+     "lvl": "I"
+    },
+    {
+     "id": "s1246376",
+     "room": "Room 12",
+     "title": "C# 14 and Beyond",
+     "who": "Bart De Smet",
+     "track": "DEV",
+     "lvl": "M"
+    },
+    {
+     "id": "s1228368",
+     "room": "Room 13",
+     "title": "Test Smarter with AI: Playwright Automation at Scale on Azure",
+     "who": "Randy Pagels",
+     "track": "DEV",
+     "lvl": "I"
+    },
+    {
+     "id": "s1250681",
+     "room": "Room 7",
+     "title": "Kindness in tech",
+     "who": "Kathleen Dollard",
+     "track": "LEAD",
+     "lvl": "I"
+    },
+    {
+     "id": "s1207790",
+     "room": "Room 8",
+     "title": "When AI meets your database: Securing sensitive data in Azure SQL in an AI-driven world",
+     "who": "Pieter Vanhove",
+     "track": "DATA",
+     "lvl": "M"
+    },
+    {
+     "id": "s1175298",
+     "room": "Room 9",
+     "title": "Azure Landing Zones Without the Overwhelm: A Simple Platform Foundation for .NET Teams",
+     "who": "Florian Lenz",
+     "track": "ARC",
+     "lvl": "M"
+    }
+   ]
+  }
+ ],
+ "wed": [
+  {
+   "t": [
+    "08:30",
+    "09:30"
+   ],
+   "s": [
+    {
+     "id": "s1352040",
+     "room": "Mission 1 (JB)",
+     "title": "Five things every developer should know about building mission-critical systems",
+     "who": "Loek Duys",
+     "track": "DEV",
+     "lvl": "A"
+    },
+    {
+     "id": "s1202445",
+     "room": "Progress (JB)",
+     "title": "Death by Tool Calls: Using CodeGen Agents to Solve the Biggest Problem with Agentic AI",
+     "who": "Jeff Prosise",
+     "track": "AI",
+     "lvl": "A"
+    },
+    {
+     "id": "s1181517",
+     "room": "Room 10",
+     "title": "Don’t talk to me like I’m a computer scientist.",
+     "who": "Dean Schuster",
+     "track": "DEV",
+     "lvl": "I"
+    },
+    {
+     "id": "s1233691",
+     "room": "Room 11",
+     "title": "What I learned from modernizing a microservices architecture",
+     "who": "Dennis Doomen",
+     "track": "ARC",
+     "lvl": "M"
+    },
+    {
+     "id": "s1320835",
+     "room": "Room 12",
+     "title": "OK, Code Is Worthless... Now What?",
+     "who": "Dylan Beattie",
+     "track": "AI",
+     "lvl": "I"
+    },
+    {
+     "id": "s1177275",
+     "room": "Room 13",
+     "title": "Run locally, call from anywhere: Debugging cloud apps with Dev Tunnels",
+     "who": "Alex Thissen",
+     "track": "OPS",
+     "lvl": "M"
+    },
+    {
+     "id": "s1317872",
+     "room": "Room 7",
+     "title": "Interoperability of .NET",
+     "who": "Sam Basu",
+     "track": "DEV",
+     "lvl": "M"
+    },
+    {
+     "id": "s1176719",
+     "room": "Room 8",
+     "title": "Slaying the Password Dragon with Passkeys and .NET 10",
+     "who": "Andrew Clymer",
+     "track": "ARC",
+     "lvl": "M"
+    },
+    {
+     "id": "s1200815",
+     "room": "Room 9",
+     "title": "Cognitive Shift: How Agentic AI Changes the Way We Think",
+     "who": "Thijs Baan",
+     "track": "AI",
+     "lvl": "M"
+    }
+   ]
+  },
+  {
+   "t": [
+    "09:45",
+    "10:45"
+   ],
+   "s": [
+    {
+     "id": "s1248478",
+     "room": "Mission 1 (JB)",
+     "title": "Reimagining PostgreSQL for AI Apps: Inside Azure HorizonDB",
+     "who": "Bob Ward",
+     "track": "DATA",
+     "lvl": "M"
+    },
+    {
+     "id": "s1324526",
+     "room": "Mission 2 (JB)",
+     "title": "Tokenomics: Writing Better Code with Fewer Tokens in GitHub Copilot",
+     "who": "Jon Galloway",
+     "track": "DEV",
+     "lvl": "M"
+    },
+    {
+     "id": "s1216334",
+     "room": "Progress (JB)",
+     "title": "Azure Spot instances as your secret weapon",
+     "who": "Jiří Činčura",
+     "track": "OPS",
+     "lvl": "I"
+    },
+    {
+     "id": "s1153288",
+     "room": "Room 10",
+     "title": "CRAcking Compliance - The EU Cyber Resilience Act",
+     "who": "Christian Schabetsberger",
+     "track": "ARC",
+     "lvl": "M"
+    },
+    {
+     "id": "s1213522",
+     "room": "Room 11",
+     "title": "Shipping AI with confidence using ASSERT and evaluations in Microsoft Foundry",
+     "who": "Arne De Proft, Laura Verghote",
+     "track": "AI",
+     "lvl": "M"
+    },
+    {
+     "id": "s1275945",
+     "room": "Room 12",
+     "title": "Quality in the Agentic Era: Keeping Engineering Standards at AI Speed",
+     "who": "Josh Johanning, Tiago Pascoal",
+     "track": "AI",
+     "lvl": "M"
+    },
+    {
+     "id": "s1241959",
+     "room": "Room 13",
+     "title": "The Future of Energy",
+     "who": "Richard Campbell",
+     "track": "AI",
+     "lvl": "M"
+    },
+    {
+     "id": "s1317798",
+     "room": "Room 7",
+     "title": "Model Context Protocol (MCP) version 2",
+     "who": "Rockford Lhotka",
+     "track": "AI",
+     "lvl": "M"
+    },
+    {
+     "id": "s1152273",
+     "room": "Room 8",
+     "title": "Async Masterclass",
+     "who": "Stephen Cleary",
+     "track": "DEV",
+     "lvl": "A"
+    },
+    {
+     "id": "s1312362",
+     "room": "Room 9",
+     "title": "From APIs to Agents: Building Governed AI Workflows",
+     "who": "Zinat Farhang",
+     "track": "DEV",
+     "lvl": "I"
+    }
+   ]
+  },
+  {
+   "t": [
+    "11:15",
+    "12:15"
+   ],
+   "s": [
+    {
+     "id": "s1322115",
+     "room": "Mission 1 (JB)",
+     "title": "Dark Factories - From Science Fiction to Production",
+     "who": "Andreas Wänqvist",
+     "track": "AI",
+     "lvl": "M"
+    },
+    {
+     "id": "s1313715",
+     "room": "Mission 2 (JB)",
+     "title": "Combining Azure DevOps with GitHub: what to expect",
+     "who": "Jacco Rademaker",
+     "track": "OPS",
+     "lvl": "I"
+    },
+    {
+     "id": "s1246095",
+     "room": "Progress (JB)",
+     "title": "What time is it? The mysterious clocks of sports and other things we do.",
+     "who": "Clemens Vasters",
+     "track": "DATA",
+     "lvl": "I"
+    },
+    {
+     "id": "s1256156",
+     "room": "Room 10",
+     "title": "Beyond DDD vs EA: Architecting Autonomous Landscapes That Actually Scale",
+     "who": "Dwight Matthys",
+     "track": "ARC",
+     "lvl": "A"
+    },
+    {
+     "id": "s1202282",
+     "room": "Room 11",
+     "title": "Continuous Evaluation & Monitoring for AI Applications",
+     "who": "Soham Dasgupta",
+     "track": "ARC",
+     "lvl": "A"
+    },
+    {
+     "id": "s1219377",
+     "room": "Room 12",
+     "title": "Pattern-based C#: if it quacks like a duck…",
+     "who": "Eva Ditzelmüller, Stefan Pölz",
+     "track": "DEV",
+     "lvl": "M"
+    },
+    {
+     "id": "s1242813",
+     "room": "Room 13",
+     "title": "From 10 to 10,000 Agents: Engineering a Governed AI Platform on Azure with Citadel",
+     "who": "Jesse Wellenberg, Patrick de Kruijf",
+     "track": "AI",
+     "lvl": "M"
+    },
+    {
+     "id": "s1240554",
+     "room": "Room 7",
+     "title": "Build Next-Gen AI Apps with .NET",
+     "who": "David Ortinau",
+     "track": "DEV",
+     "lvl": "M"
+    },
+    {
+     "id": "s1319474",
+     "room": "Room 8",
+     "title": "Reviving a Legacy Codebase with AI",
+     "who": "Mark Heath",
+     "track": "AI",
+     "lvl": "I"
+    },
+    {
+     "id": "s1246845",
+     "room": "Room 9",
+     "title": "The Web Platform Caught Up, but .NET Devs Didn't Notice",
+     "who": "Glenn F. Henriksen",
+     "track": "DEV",
+     "lvl": "M"
+    }
+   ]
+  },
+  {
+   "t": [
+    "12:30",
+    "13:00"
+   ],
+   "s": [
+    {
+     "id": "s1319115",
+     "room": "Room 12",
+     "title": "Can I Make Myself Obsolete? Two AI Agents in Security Operations",
+     "who": "Ömer Zülaloğlu",
+     "track": "AI",
+     "lvl": "M"
+    }
+   ]
+  },
+  {
+   "t": [
+    "13:15",
+    "14:15"
+   ],
+   "s": [
+    {
+     "id": "s1341135",
+     "room": "Mission 1 (JB)",
+     "title": "From Fabric to Fantastic: How dbt Makes Your Lakehouses and Warehouses Shine",
+     "who": "Sam Debruyn",
+     "track": "DATA",
+     "lvl": "I"
+    },
+    {
+     "id": "s1207611",
+     "room": "Mission 2 (JB)",
+     "title": "From Assistant to Actor: The New Security Risks of Coding Agents",
+     "who": "Maxim Salnikov",
+     "track": "ARC",
+     "lvl": "M"
+    },
+    {
+     "id": "s1252426",
+     "room": "Progress (JB)",
+     "title": "Local-First AI Development: Sovereignty, Silicon, and the Private Dev Loop",
+     "who": "Brian Randell",
+     "track": "AI",
+     "lvl": "M"
+    },
+    {
+     "id": "s1176932",
+     "room": "Room 10",
+     "title": "Bearer of Good News",
+     "who": "Sam Bellen",
+     "track": "ARC",
+     "lvl": "M"
+    },
+    {
+     "id": "s1174189",
+     "room": "Room 11",
+     "title": "Digital Sovereignty on the Azure Cloud",
+     "who": "Erwin Staal",
+     "track": "OPS",
+     "lvl": "M"
+    },
+    {
+     "id": "s1237073",
+     "room": "Room 12",
+     "title": "Beyond HybridCache: FusionCache",
+     "who": "Jody Donetti",
+     "track": "DEV",
+     "lvl": "M"
+    },
+    {
+     "id": "s1250676",
+     "room": "Room 13",
+     "title": "Creating great CLIs",
+     "who": "Kathleen Dollard",
+     "track": "DEV",
+     "lvl": "M"
+    },
+    {
+     "id": "s1207930",
+     "room": "Room 7",
+     "title": "Designing Software for Agentic Development",
+     "who": "Ardalis",
+     "track": "AI",
+     "lvl": "I"
+    },
+    {
+     "id": "s1175918",
+     "room": "Room 8",
+     "title": "LLMs in the Event-Sourced World: Commands, Projections and Sagas",
+     "who": "Oliver Sturm",
+     "track": "AI",
+     "lvl": "M"
+    },
+    {
+     "id": "s1306442",
+     "room": "Room 9",
+     "title": "Agentic Refactoring at Scale: From Loosely Typed VB.NET to Modern C#",
+     "who": "Gerrit van den Geest",
+     "track": "DEV",
+     "lvl": "M"
+    }
+   ]
+  },
+  {
+   "t": [
+    "14:30",
+    "15:30"
+   ],
+   "s": [
+    {
+     "id": "s1329465",
+     "room": "Mission 1 (JB)",
+     "title": "Making AI Useful: Structuring Data Through a Semantic Layer",
+     "who": "Arnoud Boere",
+     "track": "AI",
+     "lvl": "I"
+    },
+    {
+     "id": "s1194187",
+     "room": "Mission 2 (JB)",
+     "title": "Building a Hybrid AI Platform for Agent-Heavy Engineering",
+     "who": "Willem Meints",
+     "track": "AI",
+     "lvl": "M"
+    },
+    {
+     "id": "s1247314",
+     "room": "Progress (JB)",
+     "title": "Lessons Learnt: What Really Happens When You Give AI to Low-Code/No-Code Developers",
+     "who": "Mark Allibone",
+     "track": "AI",
+     "lvl": "M"
+    },
+    {
+     "id": "s1230041",
+     "room": "Room 10",
+     "title": "SRE practices in an agentic world",
+     "who": "Tom van den Berg",
+     "track": "AI",
+     "lvl": "M"
+    },
+    {
+     "id": "s1207578",
+     "room": "Room 11",
+     "title": "Beyond the Hyperscalers: How to build a sovereign tech stack with what you already know",
+     "who": "Bas van de Sande",
+     "track": "OPS",
+     "lvl": "M"
+    },
+    {
+     "id": "s1233053",
+     "room": "Room 12",
+     "title": "Use Agents to Build Agents with Aspire + Microsoft Agent Framework",
+     "who": "Maddy Montaquila, Tommaso Stocchi",
+     "track": "AI",
+     "lvl": "M"
+    },
+    {
+     "id": "s1219379",
+     "room": "Room 13",
+     "title": "C#shenanigans",
+     "who": "Eva Ditzelmüller, Stefan Pölz",
+     "track": "DEV",
+     "lvl": "M"
+    },
+    {
+     "id": "s1236348",
+     "room": "Room 7",
+     "title": "Data Platform Bingo: Deployment Edition",
+     "who": "Danny Kruge, Tonie Huizer",
+     "track": "DATA",
+     "lvl": "I"
+    },
+    {
+     "id": "s1246316",
+     "room": "Room 8",
+     "title": "Copilot Studio Tools Deep Dive: From Connectors to MCP",
+     "who": "Christina Wheeler",
+     "track": "AI",
+     "lvl": "M"
+    },
+    {
+     "id": "s1176888",
+     "room": "Room 9",
+     "title": "Build your own CLI tools or how to allow AI agents to troubleshoot production issues",
+     "who": "Christophe Nasarre",
+     "track": "DEV",
+     "lvl": "M"
+    }
+   ]
+  },
+  {
+   "t": [
+    "16:00",
+    "17:00"
+   ],
+   "s": [
+    {
+     "id": "s1328428",
+     "room": "Mission 1 (JB)",
+     "title": "GitHub Agents of Camelot: Building and Defending the Cloud Kingdom",
+     "who": "Wesley Haakman",
+     "track": "OPS",
+     "lvl": "M"
+    },
+    {
+     "id": "s1208747",
+     "room": "Mission 2 (JB)",
+     "title": "How I built my own intelligent Robot Arm from Scratch",
+     "who": "Iulia Feroli",
+     "track": "AI",
+     "lvl": "I"
+    },
+    {
+     "id": "s1208116",
+     "room": "Progress (JB)",
+     "title": "How To Not Strangle Your Coworkers: Resolving Conflict with Collaboration",
+     "who": "Arthur Doler",
+     "track": "LEAD",
+     "lvl": "M"
+    },
+    {
+     "id": "s1235784",
+     "room": "Room 10",
+     "title": "The Fun Side of Advanced TypeScript: A Live Coding Session",
+     "who": "Dante De Ruwe",
+     "track": "DEV",
+     "lvl": "A"
+    },
+    {
+     "id": "s1320771",
+     "room": "Room 11",
+     "title": "Out with Entity Framework, In with Copilot",
+     "who": "Robert Hartskeerl",
+     "track": "DEV",
+     "lvl": "M"
+    },
+    {
+     "id": "s1152476",
+     "room": "Room 13",
+     "title": "From \"Trust Me\" to \"Verify Me\"",
+     "who": "Tom van den Berg",
+     "track": "ARC",
+     "lvl": "M"
+    },
+    {
+     "id": "s1246448",
+     "room": "Room 7",
+     "title": "Building an LLM from scratch in 60 minutes",
+     "who": "Bart De Smet",
+     "track": "AI",
+     "lvl": "A"
+    },
+    {
+     "id": "s1246287",
+     "room": "Room 8",
+     "title": "The Well-Architected Architect - Building Secure, Reliable, Cost-efficient Solutions on Azure",
+     "who": "Chris Ayers",
+     "track": "ARC",
+     "lvl": "M"
+    },
+    {
+     "id": "s1320725",
+     "room": "Room 9",
+     "title": "Your AI Agent Needs a Kill Switch: Engineering Agents for Production",
+     "who": "Luca Berton",
+     "track": "AI",
+     "lvl": "I"
+    }
+   ]
+  },
+  {
+   "t": [
+    "17:15",
+    "18:15"
+   ],
+   "s": [
+    {
+     "id": "s1327743",
+     "room": "Room 12",
+     "title": "A Fresh Perspective on Behaviour, Change and the Brain",
+     "who": "Paul Smit",
+     "track": "",
+     "lvl": "I"
+    }
+   ]
+  }
+ ]
+}

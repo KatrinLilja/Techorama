@@ -1,14 +1,14 @@
 // Downloads session descriptions + speaker info from techorama.nl into src/sessionDetails.json.
-// Run with:  npm run fetch-details   (only needed when the schedule changes)
+// Run with:  npm run fetch-details   (or npm run update-schedule, which does this too)
 import { readFile, writeFile } from "node:fs/promises";
 
 const root = new URL("..", import.meta.url);
-const schedule = await readFile(new URL("src/schedule.ts", root), "utf8");
+const schedule = JSON.parse(await readFile(new URL("src/scheduleData.json", root), "utf8"));
 
 // Build the same id -> url pairs the app uses
 const targets = [];
-for (const m of schedule.matchAll(/\bS\((\d+),/g)) targets.push(["s" + m[1], "https://techorama.nl/schedule/sessions/" + m[1]]);
-for (const m of schedule.matchAll(/\bW\((\d+),\s*"([^"]+)"/g)) targets.push(["w" + m[1], "https://techorama.nl/schedule/workshops/" + m[2]]);
+for (const day of ["tue", "wed"]) for (const sl of schedule[day]) for (const s of sl.s) targets.push([s.id, "https://techorama.nl/schedule/sessions/" + s.id.slice(1)]);
+for (const w of schedule.workshops) targets.push([w.id, "https://techorama.nl/schedule/workshops/" + w.slug]);
 
 const decode = s =>
   s
