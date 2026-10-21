@@ -34,7 +34,7 @@ This creates a static site in `dist/`. Upload that folder to any static host —
 
 | File | What it does |
 | --- | --- |
-| `src/schedule.ts` | Builds the schedule from `scheduleData.json`; day notes, slot labels and the "not going" excuses |
+| `src/schedule.ts` | Builds the schedule from `scheduleData.json`; day notes (wording from techorama.nl) and the "not going" excuses |
 | `src/scheduleData.json` | Sessions, times and rooms, downloaded from techorama.nl |
 | `src/usePeople.ts` | Loads the team from Supabase and keeps it live (realtime + refresh when the tab comes back) |
 | `src/App.tsx` | Name picker, day tabs, filters, and saving your picks (one write at a time, coalesced) |

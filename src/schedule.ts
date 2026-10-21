@@ -1,6 +1,7 @@
 // Techorama NL 2026 schedule.
 // The sessions come from src/scheduleData.json, which `npm run update-schedule` downloads from techorama.nl.
-// Day labels, slot labels and the "not going" excuses below are maintained by hand.
+// Day notes below use only wording confirmed on techorama.nl (schedule, FAQ and venue pages).
+// The "not going" excuses are the planner's own jokes, not conference information.
 import data from "./scheduleData.json";
 
 export type DayKey = "mon" | "tue" | "wed";
@@ -9,7 +10,7 @@ export interface Slot { t: [string, string]; kind?: string; s: Session[] }
 export interface Day { label: string; note: string; slots: Slot[] }
 
 export const TR: Record<string, string> = { AI: "AI & Agents", ARC: "Architecture & Security", OPS: "Cloud & DevOps", DATA: "Data", DEV: "Dev", LEAD: "Leadership & Productivity", "": "" };
-export const LV: Record<string, string> = { I: "Introductory", M: "Intermediate", A: "Advanced" };
+export const LV: Record<string, string> = { I: "Introductory and overview", M: "Intermediate", A: "Advanced" };
 
 interface RawSession { id: string; room: string; title: string; who: string; track: string; lvl: string }
 interface RawSlot { t: string[]; s: RawSession[] }
@@ -17,21 +18,13 @@ interface RawWorkshop { id: string; slug: string; title: string; who: string }
 const raw = data as { workshops: RawWorkshop[]; tue: RawSlot[]; wed: RawSlot[] };
 
 const DAY_INFO: Record<DayKey, { label: string; note: string }> = {
-  mon: { label: "Monday 26 October", note: "Full-day workshops at the Van der Valk hotel Utrecht. Workshop ticket needed." },
+  mon: { label: "Monday 26 October", note: "Workshops at the Van der Valk hotel Utrecht." },
   tue: { label: "Tuesday 27 October", note: "Kinepolis Jaarbeurs Utrecht. Registration and breakfast from 07:30." },
-  wed: { label: "Wednesday 28 October", note: "Kinepolis Jaarbeurs Utrecht. Closing session at 17:15, then the closing reception." },
+  wed: { label: "Wednesday 28 October", note: "Kinepolis Jaarbeurs Utrecht. Registration and breakfast from 07:30." },
 };
 
-// Labels shown under the time for special slots, by start time
-const KINDS: Record<string, Record<string, string>> = {
-  mon: { "Full day": "Workshops" },
-  tue: { "08:30": "Keynote", "12:30": "Lunch talk" },
-  wed: { "12:30": "Lunch talk", "17:15": "Closing" },
-};
-
-const toSlot = (day: DayKey) => (sl: RawSlot): Slot => ({
+const toSlot = (sl: RawSlot): Slot => ({
   t: [sl.t[0] || "", sl.t[1] || ""],
-  kind: KINDS[day][sl.t[0]],
   s: sl.s.map(s => ({ ...s, url: "https://techorama.nl/schedule/sessions/" + s.id.slice(1) })),
 });
 
@@ -40,12 +33,12 @@ export const DAYS: Record<DayKey, Day> = {
     ...DAY_INFO.mon,
     slots: [{
       t: ["Full day", ""],
-      kind: KINDS.mon["Full day"],
-      s: raw.workshops.map(w => ({ id: w.id, url: "https://techorama.nl/schedule/workshops/" + w.slug, room: "Van der Valk Utrecht", title: w.title, who: w.who, track: "", lvl: "" })),
+      kind: "Full Day Workshop",
+      s: raw.workshops.map(w => ({ id: w.id, url: "https://techorama.nl/schedule/workshops/" + w.slug, room: "Van der Valk hotel Utrecht", title: w.title, who: w.who, track: "", lvl: "" })),
     }],
   },
-  tue: { ...DAY_INFO.tue, slots: raw.tue.map(toSlot("tue")) },
-  wed: { ...DAY_INFO.wed, slots: raw.wed.map(toSlot("wed")) },
+  tue: { ...DAY_INFO.tue, slots: raw.tue.map(toSlot) },
+  wed: { ...DAY_INFO.wed, slots: raw.wed.map(toSlot) },
 };
 
 // Every slot gets a "Not going" option, stored like a pick, with a slot-appropriate excuse

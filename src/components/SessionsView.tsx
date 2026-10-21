@@ -158,7 +158,7 @@ export function SessionsView({ team, day, onlyTeam, onlyMine, onToggle, onToggle
         <a href="https://techorama.nl/schedule" target="_blank" rel="noopener">
           techorama.nl/schedule
         </a>
-        . Rooms marked (JB) are in the Jaarbeurs building next door.
+        .
       </p>
       <SessionInfo target={info} team={team} onClose={() => setInfo(null)} onToggle={onToggle} />
     </>

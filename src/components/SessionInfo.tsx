@@ -72,7 +72,7 @@ export function SessionInfo({ target, onClose }: Props) {
             <div className="info-tags">
               {TR[s.track] && <span className="tag">{TR[s.track]}</span>}
               {s.lvl && <span className="tag">{LV[s.lvl]}</span>}
-              {isWorkshop(s.id) && <span className="tag">Full-day workshop</span>}
+              {isWorkshop(s.id) && <span className="tag">Full Day Workshop</span>}
             </div>
           )}
 
