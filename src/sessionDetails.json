@@ -806,10 +806,18 @@
    }
   ]
  },
- "s1183827": {
-  "url": "https://techorama.nl/schedule/sessions/1183827",
-  "description": "",
-  "speakers": []
+ "s1352040": {
+  "url": "https://techorama.nl/schedule/sessions/1352040",
+  "description": "Mission-critical systems fail in surprising ways: networks have hick-ups, retries can double-book, and observability might lie. In this session I will talk about real-world experiences learned from building software inside a utilities and banking landscapes.\nYou’ll see the most important patterns like outbox/inbox, retry & circuit breaker, event-driven decoupling, and some best practices around application telemetry.\n\nAs a bonus, I will show some tooling that helps you develop (Aspire, DevProxy and more). I will make sure you will leave the room with knowledge you can apply next Monday.",
+  "speakers": [
+   {
+    "name": "Loek Duys",
+    "tagline": "Freelance Azure & .NET Architect | 9× Microsoft MVP | Driving Cloud Adoption, Optimization & Secure Platforms | International Conference Speaker",
+    "photo": "https://oganizeprod.blob.core.windows.net/speakerimages/32249d51-53d2-46cd-92d0-4c2ee9ffdb08.jpg",
+    "page": "https://techorama.nl/schedule/speakers/loek-duys",
+    "about": "I help organizations design, build, and optimize secure, scalable Microsoft Azure platforms that deliver measurable business results.\nFor over 20 years, I’ve guided enterprise leaders and product teams through high-stakes cloud adoption, complex migrations, and performance optimization—combining deep technical expertise with a calm, collaborative style that keeps teams focused and projects on track.\n\nMy work includes:\n\n- (Enterprise) cloud adoption & migration – ensuring smooth transitions with minimal risk\n- Cost optimization & performance tuning – making Azure investments more efficient\n- Security & compliance – protecting business-critical systems and data\n- Platform engineering & landing zones – building robust foundations for innovation\n\nI’ve been honored with nine consecutive Microsoft MVP awards for my contributions to the global Azure and .NET community. Outside client projects, I speak at international conferences and run workshops that turn complex cloud concepts into actionable insights.\nRecent events include VS Live, NDC London, Oslo & Porto; SDD London; Copenhagen Developers Festival; Techorama Netherlands & Belgium; DevSum Sweden, Update Confs, and Developer Week Germany.\n\nNow, as founder of LoekD Consultancy BV, I partner with organizations ready to accelerate their Azure journey—whether that means starting fresh in the cloud or unlocking more value from what you already have, accelerated with the power of AI.\n\nContact me for full projects, workshops or sparring sessions.\n\n📬 Let’s connect:\n- LinkedIn: linkedin.com/in/loekd\n- GitHub: github.com/loekd\n- BlueSky: bsky.app/profile/loekd.com"
+   }
+  ]
  },
  "s1177275": {
   "url": "https://techorama.nl/schedule/sessions/1177275",
@@ -1255,10 +1263,10 @@
   "speakers": [
    {
     "name": "Willem Meints",
-    "tagline": "Chief AI Architect/Microsoft AI MVP",
+    "tagline": "Staff Engineer",
     "photo": "https://oganizeprod.blob.core.windows.net/speakerimages/b884760a-5bc9-4417-9b66-604cc0a89264.jpg",
     "page": "https://techorama.nl/schedule/speakers/willem-meints",
-    "about": "Willem Meints is Chief AI Architect for Info Support and Microsoft AI MVP responsible many machine-learning and AI projects at Info Support and Aigency."
+    "about": "Willem is a Staff Engineer at Info Support, where he helps more than 250 developers move beyond AI-assisted coding toward real agentic engineering. He helped kickstart the internal AI platform behind that shift, coaches teams through hands-on adoption programs, and designs workshops that turn curiosity about agents into everyday practice. His recent work ranges from autonomous agent pipelines that deliver code unattended to risk-tiered AI code review that keeps human attention where it matters most."
    }
   ]
  },
@@ -1642,7 +1650,7 @@
  },
  "w1": {
   "url": "https://techorama.nl/schedule/workshops/from-todo-to-ta-da-agentic-engineering-on-github",
-  "description": "GitHub Copilot is far more than just an autocomplete tool: it can research and plan work, run in the background, collaborate across sessions, and automate repo maintenance. In this hands-on workshop, we’ll explore agentic engineering on GitHub: starting with research and planning, moving into async handoffs and parallel threads, customizing and steering multiple agents, skills and plugins and GitHub Agentic Workflows.\n\nAttendees will learn how to structure work for agents, how to customize and personalize Copilot, preserve context across handoffs, orchestrate multiple agents safely, and keep humans in control while accelerating throughput.",
+  "description": "GitHub Copilot is far more than just an autocomplete tool: it can research and plan work, run in the background, collaborate across sessions, and automate repo maintenance. In this hands-on workshop, we’ll explore agentic engineering on GitHub: starting with research and planning, moving into async handoffs and parallel threads, customizing and steering multiple agents, skills and plugins and GitHub Agentic Workflows.\n\nAttendees will learn how to structure work for agents, how to customize and personalize Copilot, preserve context across handoffs, orchestrate multiple agents safely, and keep humans in control while accelerating throughput.\n\nPrerequisites: https://gist.github.com/joshjohanning/6078cad11106ff05679ac22741bbbbe3",
   "speakers": [
    {
     "name": "Colin Dembovsky",
