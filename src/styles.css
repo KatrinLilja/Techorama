@@ -197,3 +197,9 @@ html:has(dialog[open]) { overflow: hidden; }
   .info-dialog { width: calc(100vw - 16px); max-height: 90vh; }
   .info-inner { padding: 14px 16px 18px; }
 }
+
+/* Light/dark toggle in the header */
+.topline { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.themetoggle { display: grid; place-items: center; width: 40px; height: 40px; flex: none; padding: 0; border: 1px solid var(--line); border-radius: 50%; background: var(--surface); color: var(--ink); cursor: pointer; }
+.themetoggle:hover { border-color: var(--accent); color: var(--accent); }
+.themetoggle svg { width: 20px; height: 20px; }

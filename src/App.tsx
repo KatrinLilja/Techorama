@@ -6,6 +6,7 @@ import { Knight, KnightDefs } from "./components/Knight";
 import { SessionsView } from "./components/SessionsView";
 import { GridView } from "./components/GridView";
 import { hueStyle } from "./components/Chips";
+import { ThemeToggle } from "./components/ThemeToggle";
 
 // ---- per-device preferences (who I am, which tab) ----
 const store = {
@@ -176,7 +177,10 @@ export default function App() {
     <>
       <KnightDefs />
       <header className="top wrap">
-        <div className="eyebrow">Techorama NL · Utrecht · 26–28 Oct 2026</div>
+        <div className="topline">
+          <div className="eyebrow">Techorama NL · Utrecht · 26–28 Oct 2026</div>
+          <ThemeToggle />
+        </div>
         <h1>Techorama Team Planner</h1>
         <p className="lede">
           Choose your name, then tap the session you're going to in each time slot. Tap the shrugging knight <Knight /> on any
