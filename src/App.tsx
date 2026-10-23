@@ -7,6 +7,7 @@ import { SessionsView } from "./components/SessionsView";
 import { GridView } from "./components/GridView";
 import { hueStyle } from "./components/Chips";
 import { ThemeToggle } from "./components/ThemeToggle";
+import { FILTERS, type Filter } from "./components/SessionsView";
 
 // ---- per-device preferences (who I am, which tab) ----
 const store = {
@@ -22,8 +23,7 @@ export default function App() {
   const [me, setMeState] = useState(() => store.get("tp.me") || "");
   const [day, setDayState] = useState<DayKey>(() => { const d = store.get("tp.day") as DayKey; return DAYS[d] ? d : "tue"; });
   const [view, setViewState] = useState<"sessions" | "grid">(() => (store.get("tp.view") === "grid" ? "grid" : "sessions"));
-  const [onlyTeam, setOnlyTeam] = useState(() => store.get("tp.only") === "1");
-  const [onlyMine, setOnlyMine] = useState(() => store.get("tp.mine") === "1");
+  const [filter, setFilterState] = useState<Filter>(() => { const f = store.get("tp.filter") as Filter; return f in FILTERS ? f : "all"; });
   const [notice, setNotice] = useState<ReactNode>(null);
 
   const [adding, setAdding] = useState(false);
@@ -236,13 +236,11 @@ export default function App() {
           </div>
           {view === "sessions" && (
             <>
-              <label className="check">
-                <input type="checkbox" checked={onlyTeam} onChange={e => { setOnlyTeam(e.target.checked); store.set("tp.only", e.target.checked ? "1" : "0"); }} />
-                {" "}Only sessions with teammates
-              </label>
-              <label className="check">
-                <input type="checkbox" checked={onlyMine} onChange={e => { setOnlyMine(e.target.checked); store.set("tp.mine", e.target.checked ? "1" : "0"); }} />
-                {" "}Only my picks and shrugs
+              <label className="filter">
+                Show{" "}
+                <select value={filter} onChange={e => { const f = e.target.value as Filter; setFilterState(f); store.set("tp.filter", f); }}>
+                  {(Object.keys(FILTERS) as Filter[]).map(f => <option key={f} value={f}>{FILTERS[f]}</option>)}
+                </select>
               </label>
             </>
           )}
@@ -293,8 +291,7 @@ export default function App() {
             <SessionsView
               team={team}
               day={day}
-              onlyTeam={onlyTeam}
-              onlyMine={onlyMine}
+              filter={filter}
               onToggle={toggle}
               onToggleInterest={toggleInterest}
               onNoteChange={changeNote}

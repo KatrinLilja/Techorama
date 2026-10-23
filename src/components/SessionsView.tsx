@@ -5,18 +5,25 @@ import { Chips } from "./Chips";
 import { Knight } from "./Knight";
 import { InfoIcon, SessionInfo, type InfoTarget } from "./SessionInfo";
 
+export type Filter = "all" | "team" | "going" | "mine";
+export const FILTERS: Record<Filter, string> = {
+  all: "All sessions",
+  team: "With teammates",
+  going: "Someone going",
+  mine: "My picks",
+};
+
 interface Props {
   team: Team;
   day: DayKey;
-  onlyTeam: boolean;
-  onlyMine: boolean;
+  filter: Filter;
   onToggle(sid: string): void;
   onToggleInterest(sid: string): void;
   onNoteChange(sid: string, text: string): void;
   onNoteDone(): void;
 }
 
-export function SessionsView({ team, day, onlyTeam, onlyMine, onToggle, onToggleInterest, onNoteChange, onNoteDone }: Props) {
+export function SessionsView({ team, day, filter, onToggle, onToggleInterest, onNoteChange, onNoteDone }: Props) {
   const D = DAYS[day];
   const { meP, canPick } = team;
   const myPicks = meP ? team.picksOf(meP) : new Set<string>();
@@ -31,8 +38,10 @@ export function SessionsView({ team, day, onlyTeam, onlyMine, onToggle, onToggle
       i,
       list: sl.s.filter(
         s =>
-          (!onlyTeam || team.attendees(s.id).length > 0 || team.interested(s.id).length > 0) &&
-          (!onlyMine || (meP && (myPicks.has(s.id) || (!isWorkshop(s.id) && myInt.has(s.id))))),
+          filter === "all" ||
+          (filter === "team" && (team.attendees(s.id).length > 0 || team.interested(s.id).length > 0)) ||
+          (filter === "going" && !s.skip && team.attendees(s.id).length > 0) ||
+          (filter === "mine" && !!meP && (myPicks.has(s.id) || (!isWorkshop(s.id) && myInt.has(s.id)))),
       ),
     }))
     .filter(x => x.list.length > 0);
@@ -150,7 +159,7 @@ export function SessionsView({ team, day, onlyTeam, onlyMine, onToggle, onToggle
 
       {slots.length === 0 && (
         <p className="empty">
-          {onlyMine ? "You haven't picked or shrugged at anything this day yet." : "Nobody on the team has picked or shrugged at a session this day yet."}
+          {filter === "mine" ? "No picks from you this day yet." : filter === "going" ? "Nobody is going to anything this day yet." : "No team picks this day yet."}
         </p>
       )}
       <p className="ext">
