@@ -201,19 +201,6 @@
    }
   ]
  },
- "s1318364": {
-  "url": "https://techorama.nl/schedule/sessions/1318364",
-  "description": "Coding agents can feel like magic: point one at a codebase, ask it to fix a bug, and it reads files, edits code, runs commands, and iterates until the task is done. But under the hood, the core ideas are surprisingly approachable.\n\nIn this talk, we’ll build up a small coding agent from scratch to understand how tools like Claude Code, Cursor, and Codex work. We’ll look at the agent harness: the application layer that talks to the model, manages context, executes tool calls, and keeps the work moving.\n\nStarting with a simple conversation loop, we’ll add file and command access, use a browser to verify the agent’s work, and explore what happens when its context fills up. We’ll then look at subagents, project instructions, MCP, and reusable skills. Along the way, I’ll connect these building blocks to engineering examples from Lovable, including how feedback from the agent can help us improve its harness.\n\nYou’ll leave with a working mental model of coding agents and concrete patterns you can use to build your own, customize the tools you already use, and debug them when they go wrong.",
-  "speakers": [
-   {
-    "name": "Max Gfeller",
-    "tagline": "Technical evangelist at Lovable",
-    "photo": "https://oganizeprod.blob.core.windows.net/speakerimages/b6fbfb2a-3c25-4674-b248-6b588ac8009d.jpeg",
-    "page": "https://techorama.nl/schedule/speakers/max-gfeller",
-    "about": "Max Gfeller is a technical evangelist at Lovable and was previously the tech lead for AI at Sutro, where the team built AI infrastructure that generates production-grade backends from text prompts. He created OpenHarness, an open-source agent harness (600+ GitHub stars), and co-founded Storique.ai, an AI-powered personalized storybook platform that trains custom diffusion models on your photos. He has spoken at LambdaConf, Front Conference Zurich, Developer Week, AI Tech World, and many other developer conferences."
-   }
-  ]
- },
  "s1324527": {
   "url": "https://techorama.nl/schedule/sessions/1324527",
   "description": ".NET 11 ships this November at .NET Conf, and this session gives you a focused, developer‑ready survey of the top features you need to know. In one hour, we’ll cover the improvements that genuinely change how you build, modernize, and ship .NET applications - including new tooling, new language features, runtime upgrades, ASP.NET Core enhancements, AI‑ready capabilities, and major updates in .NET MAUI.\n\nYou’ll see the new dotnetup installer in action, explore C# 15’s powerful new union types, learn what’s new in AI‑powered development with MEAI and the Microsoft Agent Framework, and walk through the most important updates in ASP.NET Core, the runtime, MAUI, and EF Core.\n\nIn one hour, we’ll cover the features that truly matter for .NET developers:\ndotnetup - the new unified installer/updater that simplifies acquiring and managing .NET\n\nC# 15 union types - expressive domain modeling, safer APIs, and better pattern matching\n\nNew AI features in MEAI + MAF - improved tool‑calling, richer pipelines, better agent orchestration, and tighter integration with .NET 11 hosting and diagnostics\n\nASP.NET Core 11 updates - SSR improvements, QuickGrid SSR, validation updates, OpenTelemetry defaults, Zstandard compression, and more\n\nRuntime performance upgrades - GC tuning, JIT enhancements, faster startup, and container‑friendly improvements\n\n.NET MAUI improvements - better performance, improved hot reload, more reliable rendering, updated controls, and smoother mobile development workflows\n\nSDK & tooling updates - dotnet watch improvements including Aspire app‑host integration, automatic crash recovery, and device selection for MAUI/mobile projects\n\nNew features in EF Core - performance boosts, new LINQ capabilities, improved interceptors, and tooling updates shipping alongside .NET 11\n\nThis session gives you the clear, no‑nonsense survey of the top .NET 11 features you need to be fully ready to evaluate and adopt .NET 11.",
@@ -832,6 +819,19 @@
    }
   ]
  },
+ "s1318364": {
+  "url": "https://techorama.nl/schedule/sessions/1318364",
+  "description": "Coding agents can feel like magic: point one at a codebase, ask it to fix a bug, and it reads files, edits code, runs commands, and iterates until the task is done. But under the hood, the core ideas are surprisingly approachable.\n\nIn this talk, we’ll build up a small coding agent from scratch to understand how tools like Claude Code, Cursor, and Codex work. We’ll look at the agent harness: the application layer that talks to the model, manages context, executes tool calls, and keeps the work moving.\n\nStarting with a simple conversation loop, we’ll add file and command access, use a browser to verify the agent’s work, and explore what happens when its context fills up. We’ll then look at subagents, project instructions, MCP, and reusable skills. Along the way, I’ll connect these building blocks to engineering examples from Lovable, including how feedback from the agent can help us improve its harness.\n\nYou’ll leave with a working mental model of coding agents and concrete patterns you can use to build your own, customize the tools you already use, and debug them when they go wrong.",
+  "speakers": [
+   {
+    "name": "Max Gfeller",
+    "tagline": "Technical evangelist at Lovable",
+    "photo": "https://oganizeprod.blob.core.windows.net/speakerimages/b6fbfb2a-3c25-4674-b248-6b588ac8009d.jpeg",
+    "page": "https://techorama.nl/schedule/speakers/max-gfeller",
+    "about": "Max Gfeller is a technical evangelist at Lovable and was previously the tech lead for AI at Sutro, where the team built AI infrastructure that generates production-grade backends from text prompts. He created OpenHarness, an open-source agent harness (600+ GitHub stars), and co-founded Storique.ai, an AI-powered personalized storybook platform that trains custom diffusion models on your photos. He has spoken at LambdaConf, Front Conference Zurich, Developer Week, AI Tech World, and many other developer conferences."
+   }
+  ]
+ },
  "s1202445": {
   "url": "https://techorama.nl/schedule/sessions/1202445",
   "description": "AI agents are all the rage right now, and companies are rushing to find creative ways to put them to work. Especially compelling is multi-agent orchestration, in which swarms of agents, each armed with a particular set of skills, collaborate as a team to accomplish complex tasks.\n\nWhat if you were told that everything you learned about agentic AI was either wrong or incomplete? That a typical agentic app could run several times faster and be orders of magnitude less expensive if it were architected differently? That’s the promise of CodeGen agents: agents that utilize tools by generating code that calls those tools rather than by relying on the LLM tools protocol. Learn what CodeGen agents are, how to write them, and how to use them to write agents that scale. It might just change the way you think about agentic AI.",
@@ -1102,7 +1102,7 @@
     "tagline": ".NET Developer & Cloud Solution Architect at 4Dotnet",
     "photo": "https://oganizeprod.blob.core.windows.net/speakerimages/c46b527e-63ea-4e08-bf1a-0fd0a5e1a463.jpg",
     "page": "https://techorama.nl/schedule/speakers/jacco-rademaker",
-    "about": "I'm a .NET Developer and Cloud Solution Architect at 4Dotnet, with many years of experience in developing robust and scalable .NET applications, running in Azure."
+    "about": "I'm a .NET Developer and Cloud Solution Architect at 4Dotnet, with many years of experience in developing robust and scalable .NET applications, running in Azure. I have a passion for DevOps and making developer live easier."
    }
   ]
  },
@@ -1145,9 +1145,9 @@
    }
   ]
  },
- "s1219377": {
-  "url": "https://techorama.nl/schedule/sessions/1219377",
-  "description": "C# is a strongly typed programming language, to communicate expectations in a statically verifiable fashion across the .NET ecosystem. For example features such as LINQ require the type-in-use to implement a certain interface (e.g., the generic IEnumerable interface). Well, there is the dynamic keyword, but this is used quite rarely because it circumvents the type safety and has a measurable performance impact.\n\nHowever, there is a set of features that the compiler allows you to safely enable on types by satisfying a particular shape, rather than through inheritance and implementation.\n\nFeatures like:\n- use any type within foreach statements\n- apply the await operator to any type\n- tuple-like deconstruction of internal and external types\n- implicit Index and Range support\n- collection initializers and expressions for user-defined types\nand more.\n\nJoin our live coding session for a deep dive into the patterns recognized by the Roslyn compiler to learn how to augment reusable types for most convenient and idiomatic consumption in libraries and applications alike.\nIf it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck.",
+ "s1219379": {
+  "url": "https://techorama.nl/schedule/sessions/1219379",
+  "description": "Let's break some expectations of .NET!\n\n.NET offers an incredibly powerful development platform. Equally powerful is the C# language. Both are packed with over two decades of features. But with great power comes great responsibility. Plenty of basic principles are put in place that come encoded in well-known coding conventions. What could happen if we were to break these rules? Could we measurably impact performance? Could we even cause unexpected behavior?\n\nIn this session, we're going to subvert expectations. Can you figure out what we did behind the scenes? Can you uncover our sly little secrets? Through this rather unconventional approach to teaching, you will gain deeper insights into the semantics of the C# language and the internals of the .NET Runtime. Additionally, you shall learn the origin of certain guidelines and best practices as well as how established coding patterns and diagnostic analyzers are steering you towards the pit of success.\n\nIt's time to break bad with C#!",
   "speakers": [
    {
     "name": "Eva Ditzelmüller",
@@ -1452,9 +1452,9 @@
    }
   ]
  },
- "s1219379": {
-  "url": "https://techorama.nl/schedule/sessions/1219379",
-  "description": "Let's break some expectations of .NET!\n\n.NET offers an incredibly powerful development platform. Equally powerful is the C# language. Both are packed with over two decades of features. But with great power comes great responsibility. Plenty of basic principles are put in place that come encoded in well-known coding conventions. What could happen if we were to break these rules? Could we measurably impact performance? Could we even cause unexpected behavior?\n\nIn this session, we're going to subvert expectations. Can you figure out what we did behind the scenes? Can you uncover our sly little secrets? Through this rather unconventional approach to teaching, you will gain deeper insights into the semantics of the C# language and the internals of the .NET Runtime. Additionally, you shall learn the origin of certain guidelines and best practices as well as how established coding patterns and diagnostic analyzers are steering you towards the pit of success.\n\nIt's time to break bad with C#!",
+ "s1219377": {
+  "url": "https://techorama.nl/schedule/sessions/1219377",
+  "description": "C# is a strongly typed programming language, to communicate expectations in a statically verifiable fashion across the .NET ecosystem. For example features such as LINQ require the type-in-use to implement a certain interface (e.g., the generic IEnumerable interface). Well, there is the dynamic keyword, but this is used quite rarely because it circumvents the type safety and has a measurable performance impact.\n\nHowever, there is a set of features that the compiler allows you to safely enable on types by satisfying a particular shape, rather than through inheritance and implementation.\n\nFeatures like:\n- use any type within foreach statements\n- apply the await operator to any type\n- tuple-like deconstruction of internal and external types\n- implicit Index and Range support\n- collection initializers and expressions for user-defined types\nand more.\n\nJoin our live coding session for a deep dive into the patterns recognized by the Roslyn compiler to learn how to augment reusable types for most convenient and idiomatic consumption in libraries and applications alike.\nIf it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck.",
   "speakers": [
    {
     "name": "Eva Ditzelmüller",
