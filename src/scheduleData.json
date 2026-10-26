@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T20:49:18.962Z",
+ "updated": "2026-10-26T12:40:00.516Z",
  "workshops": [
   {
    "id": "w1",
@@ -167,14 +167,6 @@
      "title": "Fabric FinOps - Cost Optimization for Fabric",
      "who": "Alexander Arvidsson",
      "track": "DATA",
-     "lvl": "M"
-    },
-    {
-     "id": "s1318364",
-     "room": "Room 11",
-     "title": "Let's build our own coding agent",
-     "who": "Max Gfeller",
-     "track": "AI",
      "lvl": "M"
     },
     {
@@ -604,6 +596,14 @@
      "lvl": "A"
     },
     {
+     "id": "s1318364",
+     "room": "Mission 2 (JB)",
+     "title": "Let's build our own coding agent",
+     "who": "Max Gfeller",
+     "track": "AI",
+     "lvl": "M"
+    },
+    {
      "id": "s1202445",
      "room": "Progress (JB)",
      "title": "Death by Tool Calls: Using CodeGen Agents to Solve the Biggest Problem with Agentic AI",
@@ -804,9 +804,9 @@
      "lvl": "A"
     },
     {
-     "id": "s1219377",
+     "id": "s1219379",
      "room": "Room 12",
-     "title": "Pattern-based C#: if it quacks like a duck…",
+     "title": "C#shenanigans",
      "who": "Eva Ditzelmüller, Stefan Pölz",
      "track": "DEV",
      "lvl": "M"
@@ -1004,9 +1004,9 @@
      "lvl": "M"
     },
     {
-     "id": "s1219379",
+     "id": "s1219377",
      "room": "Room 13",
-     "title": "C#shenanigans",
+     "title": "Pattern-based C#: if it quacks like a duck…",
      "who": "Eva Ditzelmüller, Stefan Pölz",
      "track": "DEV",
      "lvl": "M"
